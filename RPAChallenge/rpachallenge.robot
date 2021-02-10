@@ -35,7 +35,9 @@ Fill And Submit The Form
 Start The Challenge
     Open Available Browser    http://rpachallenge.com/
     Download    http://rpachallenge.com/assets/downloadFiles/challenge.xlsx    overwrite=True
-    Click Button    Start
+    # 点击Start按钮
+    Click Button    Start  
+
 
 *** Tasks ***
 Fill The Forms
