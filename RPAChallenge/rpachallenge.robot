@@ -43,6 +43,8 @@ Fill The Forms
     FOR    ${person}    IN    @{people}
         Fill And Submit The Form    ${person}
     END
+    Sleep    10s
+
 
 *** Tasks ***
 Collect The Results
