@@ -31,17 +31,19 @@ Fill And Submit The Form
     Set Value By Xpath    //input[@ng-reflect-name="labelPhone"]    ${person}[Phone Number]
     Click Button    Submit
 
+
+
 *** Tasks ***
-Start The Challenge
-    Open Available Browser    http://rpachallenge.com/
+Start The Challenge   # 定义RPA任务
+    Open Available Browser    http://rpachallenge.com/    # 打开浏览器。
     Download    http://rpachallenge.com/assets/downloadFiles/challenge.xlsx    overwrite=True
     # 点击Start按钮
     Click Button    Start  
 
 
 *** Tasks ***
-Fill The Forms
-    ${people}=    Get The List Of People From The Excel File
+Fill The Forms   
+    ${people}=    Get The List Of People From The Excel File   # 获取
     FOR    ${person}    IN    @{people}
         Fill And Submit The Form    ${person}
     END
@@ -51,4 +53,5 @@ Fill The Forms
 *** Tasks ***
 Collect The Results
     Capture Element Screenshot    css:div.congratulations
+    # 这里的截图只是针对局部截图。
     Close All Browsers
