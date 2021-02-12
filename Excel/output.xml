@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210212 21:44:44.482" rpa="true">
+<suite id="s1" name="Excel" source="E:\RPAStudy\Cases\RobtFrameCases\Excel\Excel.robot">
+<test id="s1-t1" name="Download an Excel file and read the rows">
+<kw name="Download" library="RPA.HTTP">
+<doc>An alias for the ``HTTP Get`` keyword.</doc>
+<arguments>
+<arg>${EXCEL_FILE_URL}</arg>
+<arg>overwrite=True</arg>
+</arguments>
+<msg timestamp="20210212 21:44:45.170" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210212 21:44:45.170" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210212 21:44:46.287" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+ path_url=/assets/downloadFiles/challenge.xlsx 
+ headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20210212 21:44:46.411" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+ status=200, reason=OK 
+ body=PK!b�h^�[Content_Types].xml �(����N�0E�H�C�-Jܲ@5��*Q&gt;�ēƪc[�ii����B�j7���{2��h�nm���ƻR����U^7/���%��rZY�@1__�f��q��R4D�AJ�h&gt;����V�ƹ�Z�9����NV�8ʩ����ji){^��-I�"{�v^�P!XS)bR�r��K�s(�3�`c�0��������7M4�����ZƐk+�|\|z�(���P��6h_-[�@�!���Pk���2n�}�?�L��� ��%���d����dN"m,�ǞDO97*�~��ɸ8�O�c|n���E������B��!$}�����;{���[����2���PK!�U0#�L_rels/.rels �(���MO�0��H�����ݐBKwAH�!T~�I����$ݿ'T�G�~����&lt;���!��4��;#�w����qu*&amp;r�Fq���v�����GJy(v��*����K��#F��D��.W	��=��Z�MY�b���BS�����7��ϛז��?�9L�ҙ�sbgٮ|�l!��USh9i�b�r:"y_dl��D���|-N��R"4�2�G�%��Z�4�˝y�7	ë��ɂ�����PK!�&gt;����xl/_rels/workbook.xml.rels �(��RMK�0���0w�v�t/"�U�ɴ)�&amp;!3~��*�]X�K/o�y���v�5���+��zl�;o���b���G�����s�&gt;��,�8��(%���"D��҆4j�0u2js��MY�˴���S쭂��� �)f���C����y��	I&lt;y���!+��E���fMy�k�����K�5=|�t ��G)�s墙�U��tB��)���,���f�������PK!��t�Sxl/workbook.xml�TKo�0��tO�h��F��KV,�!�����t�EO�����(�����m:��ßI~�'�{%�3X'��i2�)�M!�&amp;����KJ�g�`�h�����7��]�%�]N+��,��@1745h���*�Q����X�*�d���8RLh�!d�-�,����;�yL�U�v=��o�S�n�z���b-����ų�F����'#��i���	��gJ?D��K���$���Uو��P��³ĥt:)��ǎG���3S!mI�d�,��"����2ئ������,�h��ۥ%����Y��1p&lt;�JG!�t#=X�&lt;̌�H���K@�=��M��[#,��a�V����-��HceN��ji�W�ޭD���7��I	z�#���h�w���#,�K�{��	�I؍G;���A%�'���)n���yך�D᫜�g�9�;�'����*&gt;�e�y��l}�_��&lt;\��O{��m�G���9���vJ���Lpσ\�A��f�vQ$-B�g��T�^$qz�F����O��PK!BH�ߠYxl/sharedStrings.xml|U�r�@}�L�a���@gB����r��g�V�&amp;{qw�P��2!}�L-i%�#y|��h�E���d��'�t���I�ku��&lt;!�-@;��d�!��&gt;~���a��1V�id�B�Uh��켁H�~���#�D�F��~�,5�l"��m�$g�D�V��qv4�lT6�ٍ�T��Ә���z�4�/C�ڢ�����Ѣ�͜���Re�Q(+�1��Ӣ��m�&amp;�m|,iP�6k�m�WڶmiT,���+�t���
+�:���!��\��{�c)
+Vl{|�����v�j�E7v	Z\ۍ�ȡb��Ίe�D3���q0�OUiRZ;�	"�g�,O#����Z��D�;%K@F��5m�Xi�P*Њ�z07�׵�b�ޓ��f����k;t�V@�}���H��Ry��M,�Rq��k�c�iE`k��Uj)�؁v8�á�nr�t ڝc����jFôت�غ�b�w�'%b��l&gt;��REX�U&lt;��!�&gt;,�̚YW(�9n腸������7PUth��Z�&lt;[�[���	h��=z��4b�9�v�'P�����T&lt;0=�z5��Kq����gT��mn����]Qƿ�׉4E�y&lt;n��^̛�s8*�W��JG�%��wڣ4����f���G"��m(]9�rJ���/��PK!��N� xl/theme/theme1.xml�Y͋7��?sw�5�%���l��$d�����QV32��%9�R(���Bo=��@��	$���'��#��$�lJZv�G������~z�t�ҽ�zG��_�P�=��ؘ$Ӗk8(4|OH��e	n�,�K۟~rm����Dl��I9�*�����f8��&amp;��H�#���ޘ+�R�#��^�bP{}2!#��J{��O�1�B�(�W��%���òB���R�!��a�1;�{��(~h�%���/�V&amp;D�YCn��2�L`|X�s���j� �Z{�_�\����Z��ҧh4�����:�n�aP�ա�W�U���_]�����נT����E�A)&gt;\Ç�f�g�נ_[��K�^P��kPDIr��.��jw��d����A��)�Q���RSLX"7�Z��2&gt;�R$I���O����(9���%�o�&amp;`�T)JU��&gt;���#��02��]`�XR�xb��L��+��7 /�={����=����_���*Kn%SS�Տ_����_�����7��'��Ŀ��˗���:����/�}����}��O�����!����c�&amp;�a���?��0BĒ@�v����^[ ��u����X��&lt;�kٺ�$���F��c�vw:ચ���p�Lݓ󹉻�Бk�.J���3�W�Rٍ�e����8��S��C���C���=2�L��������%Cr`%R.�Cb���e �����m�èk�=|d#a[ �0~�����h.Q�R9D15��d�2r�G&amp;�/$Dz�)��c,�K�:��A�
+��]�6�Kr�ҹ�3�=v؍P&lt;s�L���~&amp;!E�w�I|��;D=CP�1ܷ	���f"��j��'��e������t���e�&lt;�ص͉3;:�ڻSt��{�&gt;sX�a3���W"`��J�+��U��`e��k�)r�+e��m�goq�x(�ߤ�D�J]8�Tz��M�5���)��0���I�Yg�z�|]p+~o��`_�=��|j ����Qk�&lt;a�
+݂��\D��Zl؛6FV����ω�'�w�ws�[���:�(e�D��	�,kzh���p��s�yUs^�����f�^&gt;�e�k��Z����Aj��|��&amp;���O���3!���ŻBw}�ь0��Q�'�j�"��5�,ܔ#-�q&amp;?'2ڏ�ZCe����L�Tx3&amp;�c��u+�Э�N�x���Ng�������x)\�C�J��Z=�ޭ��~�TwY�(��aLfQuQ_B^g�^ٙX�tX�PꗡZFq�
+0mx���E��A�A�f��c������
+ΙFz�3��Pb/3 �tSٺqyjui��E�-#�t��0�0��,;͖�Yƺ���2O�b�r3�kE"'��&amp;&amp;S��;n��j�*#4k����x�#�[�S�vI�n�wa���D�:\�N�1��{��-_-�4��m+W�&gt;Z�@+�qt;�x2�#i��Q�N��S�p�����$�½���:�7�XX/+�����r��1������w�`�h׼��9��#:�Pv��d��5����O+Oٚ���.&lt;����O�7��si�g��*��t��;���CԲ*�n�N-r�k.��yJ���}��0-��2MY�NÊ��Q۴3,O�6�muF8=�'?ȝ�Zu@,�J����ܼ�fw�&lt;zp8�R�PBo�#(��Ȕ6`�ܓY�߼9'-�~)l�J�-�a�T�R����vV���\�u*�`�Q\���\a�Evi���.���-ͅ��L_�����\�|q� ���ʠYmvj�f�=(�N����:�^�[�zݰ�&lt;�#��nP�7
+�r�[j%e~�Y��J;����� +c`�)}d��j�����PK!"ލSHxl/styles.xml�VM��0�#�,߳�h�*	���!�"qu'�p��q��g�4mV�ݲ ���ͳ��d��]��=U-�"�����,����.sf����p)h��ůӗ/�V8��Q�@�6�;������֤��𥔪&amp;��r�FQR�fS����"�&amp;L�aQ�׀�D}�7N.�h�e���¨�o+!�r���S��ΏT�:58��_��,W����\W�%��t���%�	���䇮&lt;8{���4u�g&amp;|8�K)t�r�:�5W��"�W��O��4n��{���c7�sɥB��&amp;8�&lt;�� 5헭g[Ō�5nzgO�D��=c�Z�c���OM0�1YS%2������@x�gc�=��R����Z�YaXT��լ�M������,KϾ��[�
+ȶ!FS�ЛҘ�R�b�μ�l��5(2�F*)7�?��,��LpM���BD]�恗�w����{z�O�x�����dl�l����4@h9���H�syR�I��Db_g�~[$����aJ={e���1Z�=������4?��d���7�U���	\b�M~ (wg�`�T��������
+_���b߀�)�9���֓��s��8?r�Op�4��0/��WP�($�I������4)|t��q��o0��R���M�a���X�${��N|��eTp\���Km!|�3�?2*��~�B�7�+�����z���[Μ鄆�&lt;\��p�Z�����ՏQ��M���@��t�rh���G�g[�G�����=�&gt;"�M�{N6�|g��3�&amp;���~����M��#��3�#�����2�Åf5�L�"4�B�`��!�!�N��PK!����mdg�xl/worksheets/sheet1.xml��[�\ו�����-���r���䢑�ᚦ(�hITH�� �=����O��h� ��Wc��WsU폳����?�������߽���'���&gt;����o����?|�����7/�|���럿�����~��oo?&gt;�������ۿ����������b��?~�䏟&gt;���7�||�Ƿ?�����_�����~z�)������_&gt;�}��v�O?~s~���7?�~��}�o?�#k���woގ���駷?�����ן�����~����Oo���~z������o޼��X���~|��oۢO���ͷ���x��#�_O��o��������Ǉ�8��ӻ7�|�ç�c�o�?��_~���o��d�h����o���.u����N_�:����?�س/�ݞ�������=�?O?����?O��x��&lt;�����w���]��-�W���ݓ&gt;}����?��w��n�����_&gt;��W�^�������ͧ��0�'_���߿���	�4����o��ۿ����|z��y�ç��?�CD��o&gt;�����������O�����5�)����?o���n�ۚ��Ⱦ�|�?����e����������Y��������������������އ�OO_^�?&lt;y�w���_ַ����[��o��1��_H&lt;鷻����6���&amp;^.�|}��	޼�1.����^�q������}~��ח����t����������mW�?����g__����g�ʸ%�+㟏W���|zqK�����ϗ�?��ŋg��������+_�c�g���~��|�Ǟ�矯�&gt;^y�B�{��G�&gt;^O���~�4�o�?����-������gϺ;��~3l������������|oF��6��xk?}��&amp;�~�����,n��2�|[g�}��c���������q��&lt;�j���q���vbp��N�N\ډɉk;1;��N,�Dܳ_���ډu��n��x"�&lt;����ټ��ݓ����	��gӉ��t�ez6�8�M�]�yH۶&lt;��n����g���e���S�7��Q���i��S����3�n���H���;#��{lv�!�Y�Ǒ���������6h}���k�^%��m������H�]���Ցs�_���Ց����������p=={���ǩ���Ϟ����N�����zg$߯����zg�42�I����C~c}y|^/�Χk�Z���?�J���:�yM��WwF�-=�I����wVIw���C��.�#��/_�ݚ���ǩ��Fo)y^o���%w�;#���-��H�wFrp�!���8��~==\���ϭǩ����R]Q�n��5�d^�I��pg$��ӝ�|�:�VYG�����|����8����%��m��y�����H�_�����H�_�&lt;PZev�!=���������T^���z�c����J�l
+�j{�4�^�ý�t��fҭ?ݛI��|g�Y��/3��������������&lt;�e�z��ǯ?���ثӝ�t�wf���؝��ܺ����ug�Y�Y��|���=\^P���W���t������W�2B&amp;�Y �4:U�Uh[�������
+2@F��!d=�6_�_IN�n�9_&amp;3#d�̐�I����s������d`f�L��@�#i�UU�ӡ�~޿LfF��!d=�6_UU&gt;:��|�̌�	2C�z$m���z:t���2�!d�,��H�|U��t�P��e203B&amp;�Y �4��Un[��� #d�̐�I���@m״�G�ێ̌�	�t\yaf=�6_��1���!d�,��H�|U��|8��_�2B&amp;�Y 둴���˙� #d�̐�I�����&gt;_j�d���	2C�z$m���r��@�� 3d��G���/g�d���	2C�z$m���r��@�� 3d��G���/g�d���	2C�z$M�KU�j~�C�� 3d��G���/��V^A�� 3d��G���/�d���	2C�z$m�����/�L�� 3d��G���/�d���	2C�z$m���r��@�� 3d��G���/�d���	2C�z$m���r��@�� 3d��G���/�d���	2C�z$m���r��@�� 3d��G��V��m���@�� 3d��G���/W�d���	2C�z$m���r��@�� 3d��G���/W�d���	2C�z$m�����_�|~!d�,��H�|U��J��2Af�Y���W�_���!d�,��H�|U��J��2Af�Y���W�_���!d�,��H�|U��J��2Af�Y����P�_���� #d�̐�I����&lt;�_ d�L��@�#i�U���d���	2C�z$m����@��2Af�Y���W�_�/�2B&amp;�Y 둴�����2@F��!d=�6_Uy��@�� 3d��G���/��!d�,��H�|U��� #d�̐�I����&lt;�_ d�L��@�#i�=��/�BM��2Af�Y���W�_��_ d�L��@�#i�U��g��!d�,��H�|U���2@F��!d=�6_UyF��2Af�Y���W�_��_ d�L��@�#i�U��g��!d�,��H�|U���2@F��!d=�6_UyF��2Af�Y���W�_��_ d�L��@�#i�=��/�BM��2Af�Y���W�_��_ d�L��@�#i�U�����!d�,��H�|U��9�2@F��!d=�6_UyN��2Af�Y���W�_n������2B&amp;�Y 둴����s�d���	2C�z$m����� #d�̐�I����&lt;��@�� 3d��G���/��/�2B&amp;�Y �4�^T��m���@�� 3d��G���//�/�2B&amp;�Y 둴�����d���	2C�z$m����� #d�̐�I�������@�� 3d��G���//�/�2B&amp;�Y 둴�����d���	2C�z$m����� #d�̐�I�������@�� 3d��G���//�/�2B&amp;�Y �4�^V��m���@�� 3d��G���//�/�2B&amp;�Y 둴����K�d���	2C�z$m����� #d�̐�I�������@�� 3d��G���//�/�2B&amp;�Y 둴����K�d���	2C�z$m����� #d�̐�I�������@�� 3d��G���//�/�2B&amp;�Y �4�B�_��;H�&gt;n�ŏ�&amp;}y*||�~/���er��n�	��c���ɜ�ReD4OEЌ"hF4��Q=���Ҝ��iD4OEЌ"hF4��Q=���ۜ�RnD4OEЌ"hF4��Q=���䜞�rD4OEЌ"hF4��Q=���휞RwD4OEЌ"hF4��Q=�������{D4OEЌ"hF4��Q=������R�D4OEЌ"hF4��Q=�����҄D4OEЌ"hF4��Q=�����AI	��y*�fA3��EЌ"��A���_,���7Aaֵ�&amp;�fQXqmFG���5��f�sEP�(�ڌ@�f�w�n�ܒ_]s��{G�{��{G�{��{G�{��ۗ��Y�h�x���������͛[��6#4�q�ڌ�(��8��H��X���M�[�f��7�ڌ�Ȁ�؀���&gt;�ͤ[�f��7�ڌ�H��X��h��x��b�M�[�f��7�ڌ�؁����������ͭ[�f��7�ڌ�h��x����M�[�f��7�ڌ��������(����S�4x_��ʫv*���iv*��6��&lt;��iwKvT}�x{8�@ة�6#P�u-§Ϳ[�3#E����ǎzf�Kة�QW'|�D�5A=3�(�?^
+ꙑRa/���u�§��[�f�Zx��3#��^A=3�
+���DZ�;hTר�H˰Ư���H�p3��5ms����H��I۰(ތ&lt;3R8�T�ƒ��&amp;�... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<msg timestamp="20210212 21:44:46.490" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+E:\RPAStudy\Cases\RobtFrameCases\Excel\challenge.xlsx</msg>
+<status status="PASS" starttime="20210212 21:44:45.169" endtime="20210212 21:44:46.490"></status>
+</kw>
+<kw name="Open Workbook" library="RPA.Excel.Files">
+<doc>Open an existing Excel workbook.</doc>
+<arguments>
+<arg>challenge.xlsx</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.564" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000017CFC3EECC0&gt;</msg>
+<status status="PASS" starttime="20210212 21:44:46.493" endtime="20210212 21:44:46.564"></status>
+</kw>
+<kw name="Read Worksheet As Table" library="RPA.Excel.Files">
+<doc>Read the content of a worksheet into a Table container. Allows
+sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
+<arguments>
+<arg>header=True</arg>
+</arguments>
+<assign>
+<var>${table}</var>
+</assign>
+<msg timestamp="20210212 21:44:46.606" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<msg timestamp="20210212 21:44:46.617" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+&lt;IPython.core.display.Markdown object&gt;</msg>
+<msg timestamp="20210212 21:44:46.618" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210212 21:44:46.565" endtime="20210212 21:44:46.618"></status>
+</kw>
+<kw name="Close Workbook" library="RPA.Excel.Files">
+<doc>Close the active workbook.</doc>
+<msg timestamp="20210212 21:44:46.619" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000017CFC3EECC0&gt;</msg>
+<status status="PASS" starttime="20210212 21:44:46.618" endtime="20210212 21:44:46.619"></status>
+</kw>
+<kw name="${row} IN [ @{table} ]" type="for">
+<kw name="${row} = {'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.619" level="INFO">{'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}</msg>
+<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.620"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.620"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}</msg>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 4073541..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 40735416854}</msg>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733652145}</msg>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 407998..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 40799885412}</msg>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.621"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.621"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 4073..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 40733154268}</msg>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}</msg>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': ..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.622" level="INFO">{'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': 40731254562}</msg>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.622"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.622"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.622" level="INFO">{'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785214}</msg>
+<status status="PASS" starttime="20210212 21:44:46.622" endtime="20210212 21:44:46.622"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.622" endtime="20210212 21:44:46.622"></status>
+</kw>
+<kw name="${row} = {'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 407316..." type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${row}</arg>
+</arguments>
+<msg timestamp="20210212 21:44:46.623" level="INFO">{'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 40731653845}</msg>
+<status status="PASS" starttime="20210212 21:44:46.623" endtime="20210212 21:44:46.623"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.623" endtime="20210212 21:44:46.623"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.623"></status>
+</kw>
+<status status="PASS" starttime="20210212 21:44:45.169" endtime="20210212 21:44:46.623" critical="yes"></status>
+</test>
+<doc>Download an Excel file and read the rows.</doc>
+<status status="PASS" starttime="20210212 21:44:44.484" endtime="20210212 21:44:46.625"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tasks</stat>
+<stat pass="1" fail="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Excel">Excel</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
