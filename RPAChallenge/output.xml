@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210212 18:11:20.013" rpa="true">
-<suite id="s1" name="Rpachallenge" source="E:\RPAStudy\cases\RPAChallenge\rpachallenge.robot">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 09:40:16.650" rpa="true">
+<suite id="s1" name="Rpachallenge" source="E:\RPAStudy\Cases\RobtFrameCases\RPAChallenge\rpachallenge.robot">
 <test id="s1-t1" name="Start The Challenge">
 <kw name="Open Available Browser" library="RPA.Browser">
 <doc>Opens the first available browser in the system in preferred order, or the
@@ -8,11 +8,11 @@ given browser (``browser_selection``).</doc>
 <arguments>
 <arg>http://rpachallenge.com/</arg>
 </arguments>
-<msg timestamp="20210212 18:11:21.246" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<msg timestamp="20210212 18:11:22.610" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
-<msg timestamp="20210212 18:11:22.610" level="INFO" html="yes">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Headless&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
-<msg timestamp="20210212 18:11:22.610" level="INFO">Opening url 'http://rpachallenge.com/'</msg>
-<status status="PASS" starttime="20210212 18:11:21.239" endtime="20210212 18:11:58.394"></status>
+<msg timestamp="20210216 09:40:17.668" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20210216 09:40:19.015" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20210216 09:40:19.015" level="INFO" html="yes">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Headless&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20210216 09:40:19.015" level="INFO">Opening url 'http://rpachallenge.com/'</msg>
+<status status="PASS" starttime="20210216 09:40:17.663" endtime="20210216 09:41:01.042"></status>
 </kw>
 <kw name="Download" library="RPA.HTTP">
 <doc>An alias for the ``HTTP Get`` keyword.</doc>
@@ -20,14 +20,14 @@ given browser (``browser_selection``).</doc>
 <arg>http://rpachallenge.com/assets/downloadFiles/challenge.xlsx</arg>
 <arg>overwrite=True</arg>
 </arguments>
-<msg timestamp="20210212 18:11:58.395" level="INFO">Creating a new HTTP session</msg>
-<msg timestamp="20210212 18:11:58.396" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
-<msg timestamp="20210212 18:12:01.935" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210216 09:41:01.044" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210216 09:41:01.044" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210216 09:41:05.397" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  path_url=/assets/downloadFiles/challenge.xlsx 
  headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210212 18:12:02.081" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210216 09:41:05.515" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  status=200, reason=OK 
  body=PK!b�h^�[Content_Types].xml �(����N�0E�H�C�-Jܲ@5��*Q&gt;�ēƪc[�ii����B�j7���{2��h�nm���ƻR����U^7/���%��rZY�@1__�f��q��R4D�AJ�h&gt;����V�ƹ�Z�9����NV�8ʩ����ji){^��-I�"{�v^�P!XS)bR�r��K�s(�3�`c�0��������7M4�����ZƐk+�|\|z�(���P��6h_-[�@�!���Pk���2n�}�?�L��� ��%���d����dN"m,�ǞDO97*�~��ɸ8�O�c|n���E������B��!$}�����;{���[����2���PK!�U0#�L_rels/.rels �(���MO�0��H�����ݐBKwAH�!T~�I����$ݿ'T�G�~����&lt;���!��4��;#�w����qu*&amp;r�Fq���v�����GJy(v��*����K��#F��D��.W	��=��Z�MY�b���BS�����7��ϛז��?�9L�ҙ�sbgٮ|�l!��USh9i�b�r:"y_dl��D���|-N��R"4�2�G�%��Z�4�˝y�7	ë��ɂ�����PK!�&gt;����xl/_rels/workbook.xml.rels �(��RMK�0���0w�v�t/"�U�ɴ)�&amp;!3~��*�]X�K/o�y���v�5���+��zl�;o���b���G�����s�&gt;��,�8��(%���"D��҆4j�0u2js��MY�˴���S쭂��� �)f���C����y��	I&lt;y���!+��E���fMy�k�����K�5=|�t ��G)�s墙�U��tB��)���,���f�������PK!��t�Sxl/workbook.xml�TKo�0��tO�h��F��KV,�!�����t�EO�����(�����m:��ßI~�'�{%�3X'��i2�)�M!�&amp;����KJ�g�`�h�����7��]�%�]N+��,��@1745h���*�Q����X�*�d���8RLh�!d�-�,����;�yL�U�v=��o�S�n�z���b-����ų�F����'#��i���	��gJ?D��K���$���Uو��P��³ĥt:)��ǎG���3S!mI�d�,��"����2ئ������,�h��ۥ%����Y��1p&lt;�JG!�t#=X�&lt;̌�H���K@�=��M��[#,��a�V����-��HceN��ji�W�ޭD���7��I	z�#���h�w���#,�K�{��	�I؍G;���A%�'���)n���yך�D᫜�g�9�;�'����*&gt;�e�y��l}�_��&lt;\��O{��m�G���9���vJ���Lpσ\�A��f�vQ$-B�g��T�^$qz�F����O��PK!BH�ߠYxl/sharedStrings.xml|U�r�@}�L�a���@gB����r��g�V�&amp;{qw�P��2!}�L-i%�#y|��h�E���d��'�t���I�ku��&lt;!�-@;��d�!��&gt;~���a��1V�id�B�Uh��켁H�~���#�D�F��~�,5�l"��m�$g�D�V��qv4�lT6�ٍ�T��Ә���z�4�/C�ڢ�����Ѣ�͜���Re�Q(+�1��Ӣ��m�&amp;�m|,iP�6k�m�WڶmiT,���+�t���
 �:���!��\��{�c)
@@ -44,19 +44,38 @@ _���b߀�)�9���֓��s��8?r�Op�4��0/��WP�($
 ꙑRa/���u�§��[�f�Zx��3#��^A=3�
 ���DZ�;hTר�H˰Ư���H�p3��5ms����H��I۰(ތ&lt;3R8�T�ƒ��&amp;�... (set the log level to DEBUG or TRACE to see the full content) 
  </msg>
-<msg timestamp="20210212 18:12:02.177" level="INFO">&lt;IPython.core.display.Markdown object&gt;
-E:\RPAStudy\cases\RPAChallenge\challenge.xlsx</msg>
-<status status="PASS" starttime="20210212 18:11:58.395" endtime="20210212 18:12:02.177"></status>
+<msg timestamp="20210216 09:41:05.594" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+E:\RPAStudy\Cases\RobtFrameCases\RPAChallenge\challenge.xlsx</msg>
+<status status="PASS" starttime="20210216 09:41:01.043" endtime="20210216 09:41:05.594"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Start</arg>
 </arguments>
-<msg timestamp="20210212 18:12:02.178" level="INFO">Clicking button 'Start'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.178" endtime="20210212 18:12:02.246"></status>
+<msg timestamp="20210216 09:41:05.603" level="INFO">Clicking button 'Start'.</msg>
+<kw name="Capture Page Screenshot" library="RPA.Browser">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210216 09:41:05.607" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210216 09:41:05.604" endtime="20210216 09:41:05.607"></status>
 </kw>
-<status status="PASS" starttime="20210212 18:11:21.238" endtime="20210212 18:12:02.247" critical="yes"></status>
+<msg timestamp="20210216 09:41:05.607" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<msg timestamp="20210216 09:41:05.611" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210216 09:41:05.603" endtime="20210216 09:41:05.611"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:40:17.662" endtime="20210216 09:41:05.611" critical="yes">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</status>
 </test>
 <test id="s1-t2" name="Fill The Forms">
 <kw name="Get The List Of People From The Excel File">
@@ -68,8 +87,8 @@ E:\RPAStudy\cases\RPAChallenge\challenge.xlsx</msg>
 <arguments>
 <arg>challenge.xlsx</arg>
 </arguments>
-<msg timestamp="20210212 18:12:02.367" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x000001DAC67C5F60&gt;</msg>
-<status status="PASS" starttime="20210212 18:12:02.249" endtime="20210212 18:12:02.367"></status>
+<msg timestamp="20210216 09:41:05.679" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000023752356AC8&gt;</msg>
+<status status="PASS" starttime="20210216 09:41:05.614" endtime="20210216 09:41:05.679"></status>
 </kw>
 <kw name="Read Worksheet As Table" library="RPA.Excel.Files">
 <doc>Read the content of a worksheet into a Table container. Allows
@@ -80,19 +99,19 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <assign>
 <var>${table}</var>
 </assign>
-<msg timestamp="20210212 18:12:02.404" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<msg timestamp="20210212 18:12:02.408" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+<msg timestamp="20210216 09:41:05.697" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<msg timestamp="20210216 09:41:05.712" level="INFO">&lt;IPython.core.display.Markdown object&gt;
 &lt;IPython.core.display.Markdown object&gt;</msg>
-<msg timestamp="20210212 18:12:02.409" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<status status="PASS" starttime="20210212 18:12:02.367" endtime="20210212 18:12:02.409"></status>
+<msg timestamp="20210216 09:41:05.712" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210216 09:41:05.680" endtime="20210216 09:41:05.712"></status>
 </kw>
 <kw name="Close Workbook" library="RPA.Excel.Files">
 <doc>Close the active workbook.</doc>
-<msg timestamp="20210212 18:12:02.409" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x000001DAC67C5F60&gt;</msg>
-<status status="PASS" starttime="20210212 18:12:02.409" endtime="20210212 18:12:02.409"></status>
+<msg timestamp="20210216 09:41:05.712" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000023752356AC8&gt;</msg>
+<status status="PASS" starttime="20210216 09:41:05.712" endtime="20210216 09:41:05.712"></status>
 </kw>
-<msg timestamp="20210212 18:12:02.409" level="INFO">${people} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<status status="PASS" starttime="20210212 18:12:02.249" endtime="20210212 18:12:02.409"></status>
+<msg timestamp="20210216 09:41:05.712" level="INFO">${people} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210216 09:41:05.614" endtime="20210216 09:41:05.712"></status>
 </kw>
 <kw name="${person} IN [ @{people} ]" type="for">
 <kw name="${person} = {'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}" type="foritem">
@@ -113,1639 +132,39 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210212 18:12:02.411" level="INFO">Executing JavaScript:
+<msg timestamp="20210216 09:41:05.718" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='John';
 Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.415" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.410" endtime="20210212 18:12:02.415"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.410" endtime="20210212 18:12:02.415"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.416" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Smith';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.421" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.416" endtime="20210212 18:12:02.421"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.415" endtime="20210212 18:12:02.421"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.422" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='IT Solutions';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.425" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.421" endtime="20210212 18:12:02.425"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.421" endtime="20210212 18:12:02.425"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.426" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Analyst';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.429" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.426" endtime="20210212 18:12:02.429"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.425" endtime="20210212 18:12:02.430"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.431" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='98 North Road';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.435" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.430" endtime="20210212 18:12:02.435"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.430" endtime="20210212 18:12:02.435"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.436" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jsmith@itsolutions.co.uk';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.439" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.436" endtime="20210212 18:12:02.439"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.435" endtime="20210212 18:12:02.439"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.440" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40716543298';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.443" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.440" endtime="20210212 18:12:02.443"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.439" endtime="20210212 18:12:02.443"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.443" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.443" endtime="20210212 18:12:02.488"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.410" endtime="20210212 18:12:02.488"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.410" endtime="20210212 18:12:02.488"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}" type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.489" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Jane';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.494" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.489" endtime="20210212 18:12:02.494"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.489" endtime="20210212 18:12:02.494"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.495" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Dorsey';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.500" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.495" endtime="20210212 18:12:02.500"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.494" endtime="20210212 18:12:02.500"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.501" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='MediCare';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.504" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.501" endtime="20210212 18:12:02.504"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.500" endtime="20210212 18:12:02.504"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.505" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Medical Engineer';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.508" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.505" endtime="20210212 18:12:02.508"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.504" endtime="20210212 18:12:02.508"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.508" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='11 Crown Street';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.512" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.508" endtime="20210212 18:12:02.512"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.508" endtime="20210212 18:12:02.512"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.513" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jdorsey@mc.com';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.517" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.512" endtime="20210212 18:12:02.517"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.512" endtime="20210212 18:12:02.517"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.518" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40791345621';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.521" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.518" endtime="20210212 18:12:02.521"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.517" endtime="20210212 18:12:02.521"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.522" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.521" endtime="20210212 18:12:02.552"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.488" endtime="20210212 18:12:02.552"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.488" endtime="20210212 18:12:02.552"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 4073541..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.553" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Albert';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.557" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.553" endtime="20210212 18:12:02.557"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.553" endtime="20210212 18:12:02.557"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.558" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Kipling';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.561" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.558" endtime="20210212 18:12:02.562"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.558" endtime="20210212 18:12:02.562"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.562" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Waterfront';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.567" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.562" endtime="20210212 18:12:02.567"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.562" endtime="20210212 18:12:02.567"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.568" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Accountant';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.571" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.568" endtime="20210212 18:12:02.571"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.567" endtime="20210212 18:12:02.571"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.572" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='22 Guild Street';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.575" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.571" endtime="20210212 18:12:02.575"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.571" endtime="20210212 18:12:02.575"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.575" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='kipling@waterfront.com';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.578" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.575" endtime="20210212 18:12:02.578"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.575" endtime="20210212 18:12:02.578"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.579" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40735416854';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.584" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.579" endtime="20210212 18:12:02.584"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.578" endtime="20210212 18:12:02.584"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.584" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.584" endtime="20210212 18:12:02.615"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.553" endtime="20210212 18:12:02.616"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.552" endtime="20210212 18:12:02.616"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.617" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Michael';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.621" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.616" endtime="20210212 18:12:02.621"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.616" endtime="20210212 18:12:02.621"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.621" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Robertson';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.624" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.621" endtime="20210212 18:12:02.624"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.621" endtime="20210212 18:12:02.624"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.625" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='MediCare';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.628" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.625" endtime="20210212 18:12:02.628"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.624" endtime="20210212 18:12:02.628"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.628" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='IT Specialist';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.633" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.628" endtime="20210212 18:12:02.633"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.628" endtime="20210212 18:12:02.633"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.634" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='17 Farburn Terrace';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.637" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.633" endtime="20210212 18:12:02.637"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.633" endtime="20210212 18:12:02.637"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.638" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='mrobertson@mc.com';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.640" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.637" endtime="20210212 18:12:02.641"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.637" endtime="20210212 18:12:02.641"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.641" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40733652145';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.644" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.641" endtime="20210212 18:12:02.644"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.641" endtime="20210212 18:12:02.644"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.644" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.644" endtime="20210212 18:12:02.675"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.616" endtime="20210212 18:12:02.675"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.616" endtime="20210212 18:12:02.675"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 407998..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.676" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Doug';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.680" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.676" endtime="20210212 18:12:02.680"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.675" endtime="20210212 18:12:02.680"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.682" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Derrick';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.686" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.681" endtime="20210212 18:12:02.686"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.680" endtime="20210212 18:12:02.686"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.686" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Timepath Inc.';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.689" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.686" endtime="20210212 18:12:02.689"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.686" endtime="20210212 18:12:02.689"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.690" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Analyst';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.693" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.690" endtime="20210212 18:12:02.693"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.690" endtime="20210212 18:12:02.693"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.693" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='99 Shire Oak Road';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.698" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.693" endtime="20210212 18:12:02.698"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.693" endtime="20210212 18:12:02.698"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.699" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='dderrick@timepath.co.uk';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.702" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.698" endtime="20210212 18:12:02.702"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.698" endtime="20210212 18:12:02.702"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.703" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40799885412';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.706" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.703" endtime="20210212 18:12:02.706"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.702" endtime="20210212 18:12:02.706"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.706" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.706" endtime="20210212 18:12:02.736"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.675" endtime="20210212 18:12:02.736"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.675" endtime="20210212 18:12:02.736"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 4073..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.738" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Jessie';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.741" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.737" endtime="20210212 18:12:02.741"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.737" endtime="20210212 18:12:02.741"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.742" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Marlowe';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.745" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.741" endtime="20210212 18:12:02.745"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.741" endtime="20210212 18:12:02.745"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.746" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Aperture Inc.';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.750" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.745" endtime="20210212 18:12:02.750"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.745" endtime="20210212 18:12:02.750"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.751" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Scientist';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.754" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.750" endtime="20210212 18:12:02.754"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.750" endtime="20210212 18:12:02.754"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.755" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='27 Cheshire Street';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.757" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.754" endtime="20210212 18:12:02.757"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.754" endtime="20210212 18:12:02.758"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.758" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jmarlowe@aperture.us';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.761" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.758" endtime="20210212 18:12:02.761"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.758" endtime="20210212 18:12:02.761"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.762" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40733154268';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.767" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.761" endtime="20210212 18:12:02.767"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.761" endtime="20210212 18:12:02.767"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.767" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.767" endtime="20210212 18:12:02.799"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.737" endtime="20210212 18:12:02.799"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.737" endtime="20210212 18:12:02.799"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}" type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.800" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Stan';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.804" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.800" endtime="20210212 18:12:02.804"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.799" endtime="20210212 18:12:02.804"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.805" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Hamm';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.808" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.804" endtime="20210212 18:12:02.808"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.804" endtime="20210212 18:12:02.808"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.809" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Sugarwell';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.812" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.808" endtime="20210212 18:12:02.812"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.808" endtime="20210212 18:12:02.812"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.813" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Advisor';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.817" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.813" endtime="20210212 18:12:02.817"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.812" endtime="20210212 18:12:02.817"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.819" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='10 Dam Road';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.822" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.818" endtime="20210212 18:12:02.822"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.818" endtime="20210212 18:12:02.822"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.823" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='shamm@sugarwell.org';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.826" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.823" endtime="20210212 18:12:02.826"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.822" endtime="20210212 18:12:02.827"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.827" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40712462257';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.831" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.827" endtime="20210212 18:12:02.831"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.827" endtime="20210212 18:12:02.832"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.832" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.832" endtime="20210212 18:12:02.859"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.799" endtime="20210212 18:12:02.859"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.799" endtime="20210212 18:12:02.859"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': ..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.860" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Michelle';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.864" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.859" endtime="20210212 18:12:02.865"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.859" endtime="20210212 18:12:02.865"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.866" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Norton';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.869" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.865" endtime="20210212 18:12:02.869"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.865" endtime="20210212 18:12:02.869"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.870" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Aperture Inc.';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.873" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.870" endtime="20210212 18:12:02.873"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.869" endtime="20210212 18:12:02.873"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.873" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Scientist';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.876" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.873" endtime="20210212 18:12:02.876"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.873" endtime="20210212 18:12:02.876"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.877" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='13 White Rabbit Street';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.881" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.876" endtime="20210212 18:12:02.881"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.876" endtime="20210212 18:12:02.881"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.882" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='mnorton@aperture.us';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.885" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.881" endtime="20210212 18:12:02.885"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.881" endtime="20210212 18:12:02.885"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.886" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40731254562';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.889" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.886" endtime="20210212 18:12:02.889"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.885" endtime="20210212 18:12:02.889"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.889" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.889" endtime="20210212 18:12:02.919"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.859" endtime="20210212 18:12:02.920"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.859" endtime="20210212 18:12:02.920"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.921" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Stacy';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.925" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.920" endtime="20210212 18:12:02.925"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.920" endtime="20210212 18:12:02.925"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.926" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Shelby';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.929" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.925" endtime="20210212 18:12:02.929"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.925" endtime="20210212 18:12:02.930"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.931" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='TechDev';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.935" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.930" endtime="20210212 18:12:02.935"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.930" endtime="20210212 18:12:02.935"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.936" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='HR Manager';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.940" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.936" endtime="20210212 18:12:02.940"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.935" endtime="20210212 18:12:02.940"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.941" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='19 Pineapple Boulevard';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.944" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.940" endtime="20210212 18:12:02.944"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.940" endtime="20210212 18:12:02.944"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.945" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='sshelby@techdev.com';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.949" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.944" endtime="20210212 18:12:02.949"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.944" endtime="20210212 18:12:02.950"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.950" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40741785214';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.953" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.950" endtime="20210212 18:12:02.953"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.950" endtime="20210212 18:12:02.954"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:02.954" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:02.954" endtime="20210212 18:12:02.982"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.920" endtime="20210212 18:12:02.982"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.920" endtime="20210212 18:12:02.983"></status>
-</kw>
-<kw name="${person} = {'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 407316..." type="foritem">
-<kw name="Fill And Submit The Form">
-<arguments>
-<arg>${person}</arg>
-</arguments>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelFirstName"]</arg>
-<arg>${person}[First Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.983" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Lara';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.987" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.983" endtime="20210212 18:12:02.987"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.983" endtime="20210212 18:12:02.987"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
-<arg>${person}[Last Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.988" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Palmer';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.991" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.987" endtime="20210212 18:12:02.991"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.987" endtime="20210212 18:12:02.991"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelCompanyName"]</arg>
-<arg>${person}[Company Name]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.992" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Timepath Inc.';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:02.994" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.991" endtime="20210212 18:12:02.994"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.991" endtime="20210212 18:12:02.994"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelRole"]</arg>
-<arg>${person}[Role in Company]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:02.995" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Programmer';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:03.000" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:02.995" endtime="20210212 18:12:03.000"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.994" endtime="20210212 18:12:03.000"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelAddress"]</arg>
-<arg>${person}[Address]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:03.001" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='87 Orange Street';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:03.004" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:03.000" endtime="20210212 18:12:03.004"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:03.000" endtime="20210212 18:12:03.004"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelEmail"]</arg>
-<arg>${person}[Email]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:03.005" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='lpalmer@timepath.co.uk';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:03.007" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:03.004" endtime="20210212 18:12:03.007"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:03.004" endtime="20210212 18:12:03.008"></status>
-</kw>
-<kw name="Set Value By Xpath">
-<arguments>
-<arg>//input[@ng-reflect-name="labelPhone"]</arg>
-<arg>${person}[Phone Number]</arg>
-</arguments>
-<kw name="Execute Javascript" library="RPA.Browser">
-<doc>Executes the given JavaScript code with possible arguments.</doc>
-<arguments>
-<arg>document.evaluate('${xpath}',document.body,null,9,null).singleNodeValue.value='${value}';</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<msg timestamp="20210212 18:12:03.008" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40731653845';
-Without any arguments.</msg>
-<msg timestamp="20210212 18:12:03.011" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210212 18:12:03.008" endtime="20210212 18:12:03.011"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:03.008" endtime="20210212 18:12:03.011"></status>
-</kw>
-<kw name="Click Button" library="RPA.Browser">
-<doc>Clicks the button identified by ``locator``.</doc>
-<arguments>
-<arg>Submit</arg>
-</arguments>
-<msg timestamp="20210212 18:12:03.011" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210212 18:12:03.011" endtime="20210212 18:12:03.038"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.983" endtime="20210212 18:12:03.038"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.983" endtime="20210212 18:12:03.038"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.410" endtime="20210212 18:12:03.038"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>10s</arg>
-</arguments>
-<msg timestamp="20210212 18:12:13.050" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20210212 18:12:03.038" endtime="20210212 18:12:13.050"></status>
-</kw>
-<status status="PASS" starttime="20210212 18:12:02.248" endtime="20210212 18:12:13.051" critical="yes"></status>
+<kw name="Capture Page Screenshot" library="RPA.Browser">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210216 09:41:05.721" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210216 09:41:05.719" endtime="20210216 09:41:05.721"></status>
+</kw>
+<msg timestamp="20210216 09:41:05.721" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<msg timestamp="20210216 09:41:05.725" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210216 09:41:05.717" endtime="20210216 09:41:05.725"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:41:05.717" endtime="20210216 09:41:05.725"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:41:05.717" endtime="20210216 09:41:05.725"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:41:05.717" endtime="20210216 09:41:05.725"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:41:05.717" endtime="20210216 09:41:05.725"></status>
+</kw>
+<status status="FAIL" starttime="20210216 09:41:05.614" endtime="20210216 09:41:05.726" critical="yes">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</status>
 </test>
 <test id="s1-t3" name="Collect The Results">
 <kw name="Capture Element Screenshot" library="RPA.Browser">
@@ -1755,42 +174,55 @@ Without any arguments.</msg>
 </arguments>
 <kw name="Capture Page Screenshot" library="RPA.Browser">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210212 18:12:37.258" level="FAIL">WebDriverException: Message: chrome not reachable
+<msg timestamp="20210216 09:41:05.731" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=88.0.4324.150)
 </msg>
-<status status="FAIL" starttime="20210212 18:12:25.151" endtime="20210212 18:12:37.258"></status>
+<status status="FAIL" starttime="20210216 09:41:05.729" endtime="20210216 09:41:05.731"></status>
 </kw>
-<msg timestamp="20210212 18:12:37.258" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+<msg timestamp="20210216 09:41:05.731" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=88.0.4324.150)
 </msg>
-<msg timestamp="20210212 18:12:37.263" level="FAIL">WebDriverException: Message: chrome not reachable
+<msg timestamp="20210216 09:41:05.743" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=88.0.4324.150)
 </msg>
-<status status="FAIL" starttime="20210212 18:12:13.056" endtime="20210212 18:12:37.263"></status>
+<status status="FAIL" starttime="20210216 09:41:05.727" endtime="20210216 09:41:05.743"></status>
 </kw>
-<status status="FAIL" starttime="20210212 18:12:13.055" endtime="20210212 18:12:37.263" critical="yes">WebDriverException: Message: chrome not reachable
+<status status="FAIL" starttime="20210216 09:41:05.727" endtime="20210216 09:41:05.743" critical="yes">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=88.0.4324.150)
 </status>
 </test>
 <doc>Robot to solve the first challenge at rpachallenge.com, which consists of
 filling a form that randomly rearranges itself for ten times, with data
 taken from a provided Microsoft Excel file.</doc>
-<status status="FAIL" starttime="20210212 18:11:20.015" endtime="20210212 18:12:37.270"></status>
+<status status="FAIL" starttime="20210216 09:40:16.650" endtime="20210216 09:41:05.758"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="1">Critical Tasks</stat>
-<stat pass="2" fail="1">All Tasks</stat>
+<stat pass="0" fail="3">Critical Tasks</stat>
+<stat pass="0" fail="3">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="1" id="s1" name="Rpachallenge">Rpachallenge</stat>
+<stat pass="0" fail="3" id="s1" name="Rpachallenge">Rpachallenge</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20210212 18:11:20.567" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
-<msg timestamp="20210212 18:12:37.258" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+<msg timestamp="20210216 09:40:17.139" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
+<msg timestamp="20210216 09:41:05.607" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<msg timestamp="20210216 09:41:05.721" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<msg timestamp="20210216 09:41:05.731" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=88.0.4324.150)
 </msg>
 </errors>

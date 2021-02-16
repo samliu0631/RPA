@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210212 21:44:44.482" rpa="true">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 09:51:53.541" rpa="true">
 <suite id="s1" name="Excel" source="E:\RPAStudy\Cases\RobtFrameCases\Excel\Excel.robot">
 <test id="s1-t1" name="Download an Excel file and read the rows">
 <kw name="Download" library="RPA.HTTP">
@@ -8,14 +8,14 @@
 <arg>${EXCEL_FILE_URL}</arg>
 <arg>overwrite=True</arg>
 </arguments>
-<msg timestamp="20210212 21:44:45.170" level="INFO">Creating a new HTTP session</msg>
-<msg timestamp="20210212 21:44:45.170" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
-<msg timestamp="20210212 21:44:46.287" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210216 09:51:54.251" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210216 09:51:54.251" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210216 09:51:55.882" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  path_url=/assets/downloadFiles/challenge.xlsx 
  headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210212 21:44:46.411" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210216 09:51:56.013" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  status=200, reason=OK 
  body=PK!b�h^�[Content_Types].xml �(����N�0E�H�C�-Jܲ@5��*Q&gt;�ēƪc[�ii����B�j7���{2��h�nm���ƻR����U^7/���%��rZY�@1__�f��q��R4D�AJ�h&gt;����V�ƹ�Z�9����NV�8ʩ����ji){^��-I�"{�v^�P!XS)bR�r��K�s(�3�`c�0��������7M4�����ZƐk+�|\|z�(���P��6h_-[�@�!���Pk���2n�}�?�L��� ��%���d����dN"m,�ǞDO97*�~��ɸ8�O�c|n���E������B��!$}�����;{���[����2���PK!�U0#�L_rels/.rels �(���MO�0��H�����ݐBKwAH�!T~�I����$ݿ'T�G�~����&lt;���!��4��;#�w����qu*&amp;r�Fq���v�����GJy(v��*����K��#F��D��.W	��=��Z�MY�b���BS�����7��ϛז��?�9L�ҙ�sbgٮ|�l!��USh9i�b�r:"y_dl��D���|-N��R"4�2�G�%��Z�4�˝y�7	ë��ɂ�����PK!�&gt;����xl/_rels/workbook.xml.rels �(��RMK�0���0w�v�t/"�U�ɴ)�&amp;!3~��*�]X�K/o�y���v�5���+��zl�;o���b���G�����s�&gt;��,�8��(%���"D��҆4j�0u2js��MY�˴���S쭂��� �)f���C����y��	I&lt;y���!+��E���fMy�k�����K�5=|�t ��G)�s墙�U��tB��)���,���f�������PK!��t�Sxl/workbook.xml�TKo�0��tO�h��F��KV,�!�����t�EO�����(�����m:��ßI~�'�{%�3X'��i2�)�M!�&amp;����KJ�g�`�h�����7��]�%�]N+��,��@1745h���*�Q����X�*�d���8RLh�!d�-�,����;�yL�U�v=��o�S�n�z���b-����ų�F����'#��i���	��gJ?D��K���$���Uو��P��³ĥt:)��ǎG���3S!mI�d�,��"����2ئ������,�h��ۥ%����Y��1p&lt;�JG!�t#=X�&lt;̌�H���K@�=��M��[#,��a�V����-��HceN��ji�W�ޭD���7��I	z�#���h�w���#,�K�{��	�I؍G;���A%�'���)n���yך�D᫜�g�9�;�'����*&gt;�e�y��l}�_��&lt;\��O{��m�G���9���vJ���Lpσ\�A��f�vQ$-B�g��T�^$qz�F����O��PK!BH�ߠYxl/sharedStrings.xml|U�r�@}�L�a���@gB����r��g�V�&amp;{qw�P��2!}�L-i%�#y|��h�E���d��'�t���I�ku��&lt;!�-@;��d�!��&gt;~���a��1V�id�B�Uh��켁H�~���#�D�F��~�,5�l"��m�$g�D�V��qv4�lT6�ٍ�T��Ә���z�4�/C�ڢ�����Ѣ�͜���Re�Q(+�1��Ӣ��m�&amp;�m|,iP�6k�m�WڶmiT,���+�t���
 �:���!��\��{�c)
@@ -32,17 +32,17 @@ _���b߀�)�9���֓��s��8?r�Op�4��0/��WP�($
 ꙑRa/���u�§��[�f�Zx��3#��^A=3�
 ���DZ�;hTר�H˰Ư���H�p3��5ms����H��I۰(ތ&lt;3R8�T�ƒ��&amp;�... (set the log level to DEBUG or TRACE to see the full content) 
  </msg>
-<msg timestamp="20210212 21:44:46.490" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+<msg timestamp="20210216 09:51:56.098" level="INFO">&lt;IPython.core.display.Markdown object&gt;
 E:\RPAStudy\Cases\RobtFrameCases\Excel\challenge.xlsx</msg>
-<status status="PASS" starttime="20210212 21:44:45.169" endtime="20210212 21:44:46.490"></status>
+<status status="PASS" starttime="20210216 09:51:54.251" endtime="20210216 09:51:56.098"></status>
 </kw>
 <kw name="Open Workbook" library="RPA.Excel.Files">
 <doc>Open an existing Excel workbook.</doc>
 <arguments>
 <arg>challenge.xlsx</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.564" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000017CFC3EECC0&gt;</msg>
-<status status="PASS" starttime="20210212 21:44:46.493" endtime="20210212 21:44:46.564"></status>
+<msg timestamp="20210216 09:51:56.171" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x000001E3441EEC50&gt;</msg>
+<status status="PASS" starttime="20210216 09:51:56.105" endtime="20210216 09:51:56.171"></status>
 </kw>
 <kw name="Read Worksheet As Table" library="RPA.Excel.Files">
 <doc>Read the content of a worksheet into a Table container. Allows
@@ -53,16 +53,16 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <assign>
 <var>${table}</var>
 </assign>
-<msg timestamp="20210212 21:44:46.606" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<msg timestamp="20210212 21:44:46.617" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+<msg timestamp="20210216 09:51:56.203" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<msg timestamp="20210216 09:51:56.207" level="INFO">&lt;IPython.core.display.Markdown object&gt;
 &lt;IPython.core.display.Markdown object&gt;</msg>
-<msg timestamp="20210212 21:44:46.618" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<status status="PASS" starttime="20210212 21:44:46.565" endtime="20210212 21:44:46.618"></status>
+<msg timestamp="20210216 09:51:56.207" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210216 09:51:56.171" endtime="20210216 09:51:56.207"></status>
 </kw>
 <kw name="Close Workbook" library="RPA.Excel.Files">
 <doc>Close the active workbook.</doc>
-<msg timestamp="20210212 21:44:46.619" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x0000017CFC3EECC0&gt;</msg>
-<status status="PASS" starttime="20210212 21:44:46.618" endtime="20210212 21:44:46.619"></status>
+<msg timestamp="20210216 09:51:56.207" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x000001E3441EEC50&gt;</msg>
+<status status="PASS" starttime="20210216 09:51:56.207" endtime="20210216 09:51:56.207"></status>
 </kw>
 <kw name="${row} IN [ @{table} ]" type="for">
 <kw name="${row} = {'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}" type="foritem">
@@ -71,10 +71,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.619" level="INFO">{'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}</msg>
-<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.620"></status>
+<msg timestamp="20210216 09:51:56.209" level="INFO">{'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}</msg>
+<status status="PASS" starttime="20210216 09:51:56.208" endtime="20210216 09:51:56.209"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.620"></status>
+<status status="PASS" starttime="20210216 09:51:56.208" endtime="20210216 09:51:56.209"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -82,10 +82,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}</msg>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<msg timestamp="20210216 09:51:56.209" level="INFO">{'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}</msg>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 4073541..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -93,10 +93,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 40735416854}</msg>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<msg timestamp="20210216 09:51:56.209" level="INFO">{'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 40735416854}</msg>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -104,10 +104,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.620" level="INFO">{'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733652145}</msg>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<msg timestamp="20210216 09:51:56.209" level="INFO">{'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733652145}</msg>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.620"></status>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.209"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 407998..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -115,10 +115,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 40799885412}</msg>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.621"></status>
+<msg timestamp="20210216 09:51:56.210" level="INFO">{'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 40799885412}</msg>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.210"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.620" endtime="20210212 21:44:46.621"></status>
+<status status="PASS" starttime="20210216 09:51:56.209" endtime="20210216 09:51:56.210"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 4073..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -126,10 +126,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 40733154268}</msg>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+<msg timestamp="20210216 09:51:56.210" level="INFO">{'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 40733154268}</msg>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.210"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.210"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}" type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -137,10 +137,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.621" level="INFO">{'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}</msg>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+<msg timestamp="20210216 09:51:56.210" level="INFO">{'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}</msg>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.210"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.621"></status>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.210"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': ..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -148,10 +148,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.622" level="INFO">{'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': 40731254562}</msg>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.622"></status>
+<msg timestamp="20210216 09:51:56.211" level="INFO">{'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': 40731254562}</msg>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.211"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.621" endtime="20210212 21:44:46.622"></status>
+<status status="PASS" starttime="20210216 09:51:56.210" endtime="20210216 09:51:56.211"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -159,10 +159,10 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.622" level="INFO">{'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785214}</msg>
-<status status="PASS" starttime="20210212 21:44:46.622" endtime="20210212 21:44:46.622"></status>
+<msg timestamp="20210216 09:51:56.211" level="INFO">{'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785214}</msg>
+<status status="PASS" starttime="20210216 09:51:56.211" endtime="20210216 09:51:56.211"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.622" endtime="20210212 21:44:46.622"></status>
+<status status="PASS" starttime="20210216 09:51:56.211" endtime="20210216 09:51:56.211"></status>
 </kw>
 <kw name="${row} = {'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 407316..." type="foritem">
 <kw name="Log" library="BuiltIn">
@@ -170,17 +170,17 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <arguments>
 <arg>${row}</arg>
 </arguments>
-<msg timestamp="20210212 21:44:46.623" level="INFO">{'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 40731653845}</msg>
-<status status="PASS" starttime="20210212 21:44:46.623" endtime="20210212 21:44:46.623"></status>
+<msg timestamp="20210216 09:51:56.212" level="INFO">{'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 40731653845}</msg>
+<status status="PASS" starttime="20210216 09:51:56.212" endtime="20210216 09:51:56.212"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.623" endtime="20210212 21:44:46.623"></status>
+<status status="PASS" starttime="20210216 09:51:56.211" endtime="20210216 09:51:56.212"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:46.619" endtime="20210212 21:44:46.623"></status>
+<status status="PASS" starttime="20210216 09:51:56.208" endtime="20210216 09:51:56.212"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:44:45.169" endtime="20210212 21:44:46.623" critical="yes"></status>
+<status status="PASS" starttime="20210216 09:51:54.250" endtime="20210216 09:51:56.212" critical="yes"></status>
 </test>
 <doc>Download an Excel file and read the rows.</doc>
-<status status="PASS" starttime="20210212 21:44:44.484" endtime="20210212 21:44:46.625"></status>
+<status status="PASS" starttime="20210216 09:51:53.541" endtime="20210216 09:51:56.220"></status>
 </suite>
 <statistics>
 <total>

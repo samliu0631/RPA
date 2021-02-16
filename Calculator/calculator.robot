@@ -10,7 +10,7 @@ Open the Calculator
 *** Keywords ***
 Add two numbers
     [Arguments]    ${first}    ${second}
-    Mouse Click    id:clearEntryButton
+    #Mouse Click    id:clearEntryButton
     Mouse Click    id:num${first}Button
     Mouse Click    id:plusButton
     Mouse Click    id:num${second}Button

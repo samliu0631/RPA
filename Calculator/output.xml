@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210207 11:28:22.930" rpa="true">
-<suite id="s1" name="Calculator" source="E:\RPAStudy\cases\Calculator\calculator.robot">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 09:43:23.568" rpa="true">
+<suite id="s1" name="Calculator" source="E:\RPAStudy\Cases\RobtFrameCases\Calculator\calculator.robot">
 <test id="s1-t1" name="Calculate and log the result">
 <kw name="Open the Calculator">
 <kw name="Open Executable" library="RPA.Desktop.Windows">
@@ -10,12 +10,12 @@ to get handle on the application.</doc>
 <arg>calc.exe</arg>
 <arg>计算器</arg>
 </arguments>
-<msg timestamp="20210207 11:28:24.085" level="INFO">Opening executable: calc.exe - window: 计算器</msg>
-<msg timestamp="20210207 11:28:24.179" level="INFO">Open dialog: '计算器'</msg>
-<msg timestamp="20210207 11:28:24.789" level="INFO">Connect to application handle: 132222</msg>
-<status status="PASS" starttime="20210207 11:28:24.085" endtime="20210207 11:28:25.239"></status>
+<msg timestamp="20210216 09:43:24.319" level="INFO">Opening executable: calc.exe - window: 计算器</msg>
+<msg timestamp="20210216 09:43:24.378" level="INFO">Open dialog: '计算器'</msg>
+<msg timestamp="20210216 09:43:25.249" level="INFO">Connect to application handle: 460034</msg>
+<status status="PASS" starttime="20210216 09:43:24.319" endtime="20210216 09:43:25.832"></status>
 </kw>
-<status status="PASS" starttime="20210207 11:28:24.084" endtime="20210207 11:28:25.239"></status>
+<status status="PASS" starttime="20210216 09:43:24.319" endtime="20210216 09:43:25.832"></status>
 </kw>
 <kw name="Add two numbers">
 <arguments>
@@ -25,49 +25,40 @@ to get handle on the application.</doc>
 <kw name="Mouse Click" library="RPA.Desktop.Windows">
 <doc>Mouse click `locator`, `coordinates`, or `image`</doc>
 <arguments>
-<arg>id:clearEntryButton</arg>
-</arguments>
-<msg timestamp="20210207 11:28:25.240" level="INFO">Mouse click: id:clearEntryButton</msg>
-<msg timestamp="20210207 11:28:25.241" level="INFO">Click type 'click' at (341, 447)</msg>
-<status status="PASS" starttime="20210207 11:28:25.240" endtime="20210207 11:28:25.401"></status>
-</kw>
-<kw name="Mouse Click" library="RPA.Desktop.Windows">
-<doc>Mouse click `locator`, `coordinates`, or `image`</doc>
-<arguments>
 <arg>id:num${first}Button</arg>
 </arguments>
-<msg timestamp="20210207 11:28:25.401" level="INFO">Mouse click: id:num5Button</msg>
-<msg timestamp="20210207 11:28:25.401" level="INFO">Click type 'click' at (341, 745)</msg>
-<status status="PASS" starttime="20210207 11:28:25.401" endtime="20210207 11:28:25.979"></status>
+<msg timestamp="20210216 09:43:25.833" level="INFO">Mouse click: id:num5Button</msg>
+<msg timestamp="20210216 09:43:25.834" level="INFO">Click type 'click' at (295, 732)</msg>
+<status status="PASS" starttime="20210216 09:43:25.833" endtime="20210216 09:43:25.958"></status>
 </kw>
 <kw name="Mouse Click" library="RPA.Desktop.Windows">
 <doc>Mouse click `locator`, `coordinates`, or `image`</doc>
 <arguments>
 <arg>id:plusButton</arg>
 </arguments>
-<msg timestamp="20210207 11:28:25.979" level="INFO">Mouse click: id:plusButton</msg>
-<msg timestamp="20210207 11:28:25.979" level="INFO">Click type 'click' at (696, 844)</msg>
-<status status="PASS" starttime="20210207 11:28:25.979" endtime="20210207 11:28:26.568"></status>
+<msg timestamp="20210216 09:43:25.958" level="INFO">Mouse click: id:plusButton</msg>
+<msg timestamp="20210216 09:43:25.959" level="INFO">Click type 'click' at (519, 791)</msg>
+<status status="PASS" starttime="20210216 09:43:25.958" endtime="20210216 09:43:26.562"></status>
 </kw>
 <kw name="Mouse Click" library="RPA.Desktop.Windows">
 <doc>Mouse click `locator`, `coordinates`, or `image`</doc>
 <arguments>
 <arg>id:num${second}Button</arg>
 </arguments>
-<msg timestamp="20210207 11:28:26.568" level="INFO">Mouse click: id:num7Button</msg>
-<msg timestamp="20210207 11:28:26.569" level="INFO">Click type 'click' at (163, 645)</msg>
-<status status="PASS" starttime="20210207 11:28:26.568" endtime="20210207 11:28:27.157"></status>
+<msg timestamp="20210216 09:43:26.562" level="INFO">Mouse click: id:num7Button</msg>
+<msg timestamp="20210216 09:43:26.562" level="INFO">Click type 'click' at (183, 674)</msg>
+<status status="PASS" starttime="20210216 09:43:26.562" endtime="20210216 09:43:27.101"></status>
 </kw>
 <kw name="Mouse Click" library="RPA.Desktop.Windows">
 <doc>Mouse click `locator`, `coordinates`, or `image`</doc>
 <arguments>
 <arg>id:equalButton</arg>
 </arguments>
-<msg timestamp="20210207 11:28:27.157" level="INFO">Mouse click: id:equalButton</msg>
-<msg timestamp="20210207 11:28:27.157" level="INFO">Click type 'click' at (696, 943)</msg>
-<status status="PASS" starttime="20210207 11:28:27.157" endtime="20210207 11:28:27.747"></status>
+<msg timestamp="20210216 09:43:27.101" level="INFO">Mouse click: id:equalButton</msg>
+<msg timestamp="20210216 09:43:27.101" level="INFO">Click type 'click' at (519, 850)</msg>
+<status status="PASS" starttime="20210216 09:43:27.101" endtime="20210216 09:43:27.655"></status>
 </kw>
-<status status="PASS" starttime="20210207 11:28:25.240" endtime="20210207 11:28:27.747"></status>
+<status status="PASS" starttime="20210216 09:43:25.833" endtime="20210216 09:43:27.655"></status>
 </kw>
 <kw name="Read the result">
 <assign>
@@ -81,11 +72,11 @@ to get handle on the application.</doc>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210207 11:28:27.748" level="INFO">Get element: id:CalculatorResults</msg>
-<msg timestamp="20210207 11:28:27.748" level="INFO">Open dialog: '计算器'</msg>
-<msg timestamp="20210207 11:28:27.970" level="INFO">Connect to application handle: 132222</msg>
-<msg timestamp="20210207 11:28:28.416" level="INFO">${result} = 显示为 12</msg>
-<status status="PASS" starttime="20210207 11:28:27.748" endtime="20210207 11:28:28.416"></status>
+<msg timestamp="20210216 09:43:27.657" level="INFO">Get element: id:CalculatorResults</msg>
+<msg timestamp="20210216 09:43:27.657" level="INFO">Open dialog: '计算器'</msg>
+<msg timestamp="20210216 09:43:27.849" level="INFO">Connect to application handle: 460034</msg>
+<msg timestamp="20210216 09:43:28.445" level="INFO">${result} = 显示为 12</msg>
+<status status="PASS" starttime="20210216 09:43:27.657" endtime="20210216 09:43:28.445"></status>
 </kw>
 <kw name="Split String From Right" library="String">
 <doc>Splits the ``string`` using ``separator`` starting from right.</doc>
@@ -97,24 +88,24 @@ to get handle on the application.</doc>
 <var>${_}</var>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210207 11:28:28.416" level="INFO">${_} = 显示为</msg>
-<msg timestamp="20210207 11:28:28.416" level="INFO">${result} = 12</msg>
-<status status="PASS" starttime="20210207 11:28:28.416" endtime="20210207 11:28:28.416"></status>
+<msg timestamp="20210216 09:43:28.445" level="INFO">${_} = 显示为</msg>
+<msg timestamp="20210216 09:43:28.445" level="INFO">${result} = 12</msg>
+<status status="PASS" starttime="20210216 09:43:28.445" endtime="20210216 09:43:28.445"></status>
 </kw>
-<msg timestamp="20210207 11:28:28.416" level="INFO">${result} = 12</msg>
-<status status="PASS" starttime="20210207 11:28:27.748" endtime="20210207 11:28:28.416"></status>
+<msg timestamp="20210216 09:43:28.445" level="INFO">${result} = 12</msg>
+<status status="PASS" starttime="20210216 09:43:27.657" endtime="20210216 09:43:28.445"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${result}</arg>
 </arguments>
-<msg timestamp="20210207 11:28:28.416" level="INFO">12</msg>
-<status status="PASS" starttime="20210207 11:28:28.416" endtime="20210207 11:28:28.416"></status>
+<msg timestamp="20210216 09:43:28.452" level="INFO">12</msg>
+<status status="PASS" starttime="20210216 09:43:28.452" endtime="20210216 09:43:28.452"></status>
 </kw>
-<status status="PASS" starttime="20210207 11:28:24.083" endtime="20210207 11:28:28.416" critical="yes"></status>
+<status status="PASS" starttime="20210216 09:43:24.318" endtime="20210216 09:43:28.452" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210207 11:28:22.931" endtime="20210207 11:28:28.416"></status>
+<status status="PASS" starttime="20210216 09:43:23.569" endtime="20210216 09:43:28.460"></status>
 </suite>
 <statistics>
 <total>

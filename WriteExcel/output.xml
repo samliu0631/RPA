@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210212 21:48:33.286" rpa="true">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 09:53:38.816" rpa="true">
 <suite id="s1" name="WriteExcel" source="E:\RPAStudy\Cases\RobtFrameCases\WriteExcel\WriteExcel.robot">
 <test id="s1-t1" name="Create an Excel file with data from a remote API">
 <kw name="Create Workbook" library="RPA.Excel.Files">
@@ -7,7 +7,7 @@
 <arguments>
 <arg>comments.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.008" endtime="20210212 21:48:34.009"></status>
+<status status="PASS" starttime="20210216 09:53:39.518" endtime="20210216 09:53:39.519"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -16,7 +16,7 @@
 <arg>1</arg>
 <arg>Post ID</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.010" endtime="20210212 21:48:34.010"></status>
+<status status="PASS" starttime="20210216 09:53:39.520" endtime="20210216 09:53:39.520"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -25,7 +25,7 @@
 <arg>2</arg>
 <arg>ID</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.010" endtime="20210212 21:48:34.011"></status>
+<status status="PASS" starttime="20210216 09:53:39.520" endtime="20210216 09:53:39.520"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -34,7 +34,7 @@
 <arg>3</arg>
 <arg>Name</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.011" endtime="20210212 21:48:34.011"></status>
+<status status="PASS" starttime="20210216 09:53:39.521" endtime="20210216 09:53:39.521"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -43,7 +43,7 @@
 <arg>4</arg>
 <arg>Email address</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.011" endtime="20210212 21:48:34.011"></status>
+<status status="PASS" starttime="20210216 09:53:39.521" endtime="20210216 09:53:39.522"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -52,7 +52,7 @@
 <arg>5</arg>
 <arg>Body</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:34.011" endtime="20210212 21:48:34.011"></status>
+<status status="PASS" starttime="20210216 09:53:39.522" endtime="20210216 09:53:39.522"></status>
 </kw>
 <kw name="Http Get" library="RPA.HTTP">
 <doc>A helper method for ``Get Request`` that will create a session, perform GET
@@ -63,14 +63,14 @@ request, and store the target file, if set by the ``target_file`` parameter.</do
 <assign>
 <var>${response}</var>
 </assign>
-<msg timestamp="20210212 21:48:34.012" level="INFO">Creating a new HTTP session</msg>
-<msg timestamp="20210212 21:48:34.012" level="INFO">Creating Session using : alias=rpasession_alias.httpsjsonplaceholder.typicode.com, url=https://jsonplaceholder.typicode.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
-<msg timestamp="20210212 21:48:42.314" level="INFO">GET Request : url=https://jsonplaceholder.typicode.com/comments 
+<msg timestamp="20210216 09:53:39.523" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210216 09:53:39.523" level="INFO">Creating Session using : alias=rpasession_alias.httpsjsonplaceholder.typicode.com, url=https://jsonplaceholder.typicode.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210216 09:53:46.041" level="INFO">GET Request : url=https://jsonplaceholder.typicode.com/comments 
  path_url=/comments 
  headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210212 21:48:42.314" level="INFO">GET Response : url=https://jsonplaceholder.typicode.com/comments 
+<msg timestamp="20210216 09:53:46.041" level="INFO">GET Response : url=https://jsonplaceholder.typicode.com/comments 
  status=200, reason=OK 
  body=[
   {
@@ -304,25 +304,25 @@ request, and store the target file, if set by the ``target_file`` parameter.</do
     "email": "Jaeden.Towne@arlene.tv",
     "body": "fugit harum quae vero\nlibero unde tempore... (set the log level to DEBUG or TRACE to see the full content) 
  </msg>
-<msg timestamp="20210212 21:48:42.314" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210212 21:48:34.012" endtime="20210212 21:48:42.314"></status>
+<msg timestamp="20210216 09:53:46.041" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210216 09:53:39.523" endtime="20210216 09:53:46.041"></status>
 </kw>
 <kw name="Append Rows To Worksheet" library="RPA.Excel.Files">
 <doc>Append values to the end of the worksheet.</doc>
 <arguments>
 <arg>${response.json()}</arg>
 </arguments>
-<status status="PASS" starttime="20210212 21:48:42.315" endtime="20210212 21:48:42.338"></status>
+<status status="PASS" starttime="20210216 09:53:46.058" endtime="20210216 09:53:46.080"></status>
 </kw>
 <kw name="Save Workbook" library="RPA.Excel.Files">
 <doc>Save the active workbook.</doc>
-<status status="PASS" starttime="20210212 21:48:42.338" endtime="20210212 21:48:42.376"></status>
+<status status="PASS" starttime="20210216 09:53:46.080" endtime="20210216 09:53:46.122"></status>
 </kw>
-<status status="PASS" starttime="20210212 21:48:34.008" endtime="20210212 21:48:42.377" critical="yes"></status>
+<status status="PASS" starttime="20210216 09:53:39.516" endtime="20210216 09:53:46.122" critical="yes"></status>
 </test>
 <doc>An example robot that downloads JSON data from a remote API
 and writes it into a local Excel file.</doc>
-<status status="PASS" starttime="20210212 21:48:33.287" endtime="20210212 21:48:42.378"></status>
+<status status="PASS" starttime="20210216 09:53:38.832" endtime="20210216 09:53:46.130"></status>
 </suite>
 <statistics>
 <total>

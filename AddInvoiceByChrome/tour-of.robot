@@ -21,6 +21,8 @@ Create An Invoice
     ${invoice_id}=   Get Invoice Id     ${invoice}
     comment       ${invoice_id}
     Reload Page
-    #Page Should Contain     ${invoice_id}
+    Click Element   css:[href="#/tables"]    
+    Page Should Contain     ${invoice_id}
+    sleep    5s
     #Open Invoice    ${invoice_id}
 
