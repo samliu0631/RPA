@@ -22,7 +22,8 @@ Create An Invoice
     comment       ${invoice_id}
     Reload Page
     Click Element   css:[href="#/tables"]    
-    Page Should Contain     ${invoice_id}
+    Page Should Contain     ${invoice_id}    
+    sleep    1s
+    Open Invoice    ${invoice_id}
     sleep    5s
-    #Open Invoice    ${invoice_id}
 
