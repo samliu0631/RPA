@@ -3,9 +3,13 @@ Documentation     An example robot that downloads JSON data from a remote API
 ...               and writes it into a local Excel file.
 Library           RPA.Excel.Files
 Library           RPA.HTTP
+Library           Telnet
+Library           RPA.Browser
 
 *** Tasks ***
 Create an Excel file with data from a remote API
+    #Open Brow
+    Open Available Browser     https://jsonplaceholder.typicode.com/comments
     Create Workbook    comments.xlsx
     Set Worksheet Value    1    1    Post ID
     Set Worksheet Value    1    2    ID

@@ -3,7 +3,7 @@ Documentation     A simple web scraper robot.
 
 Library     RPA.Browser
 Library     RPA.FileSystem
-Library    RPA.Desktop
+Library     RPA.Desktop
 
 *** Variables ***
 ${URL}=     http://news.baidu.com

@@ -3,7 +3,7 @@ Library           RPA.Desktop.Windows
 Library           String
 
 *** Keywords ***
-Open the Calculator
+打开计算器
     Open Executable    calc.exe   计算器
     # Calculator
 
@@ -23,8 +23,8 @@ Read the result
     [Return]    ${result}
 
 *** Tasks ***
-Calculate and log the result
-    Open the Calculator
-    Add two numbers    5    7
+计算加法
+    打开计算器
+    Add two numbers    5    9
     ${result}=    Read the result
     Log    ${result}

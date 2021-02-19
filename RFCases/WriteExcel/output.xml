@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 09:53:38.816" rpa="true">
-<suite id="s1" name="WriteExcel" source="E:\RPAStudy\Cases\RobtFrameCases\WriteExcel\WriteExcel.robot">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210218 20:08:14.632" rpa="true">
+<suite id="s1" name="WriteExcel" source="E:\RPAStudy\Cases\RFCases\WriteExcel\WriteExcel.robot">
 <test id="s1-t1" name="Create an Excel file with data from a remote API">
+<kw name="Open Available Browser" library="RPA.Browser">
+<doc>Opens the first available browser in the system in preferred order, or the
+given browser (``browser_selection``).</doc>
+<arguments>
+<arg>https://jsonplaceholder.typicode.com/comments</arg>
+</arguments>
+<msg timestamp="20210218 20:08:15.660" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20210218 20:08:17.072" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20210218 20:08:17.072" level="INFO" html="yes">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Headless&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20210218 20:08:17.072" level="INFO">Opening url 'https://jsonplaceholder.typicode.com/comments'</msg>
+<status status="PASS" starttime="20210218 20:08:15.654" endtime="20210218 20:08:20.612"></status>
+</kw>
 <kw name="Create Workbook" library="RPA.Excel.Files">
 <doc>Create and open a new Excel workbook.</doc>
 <arguments>
 <arg>comments.xlsx</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.518" endtime="20210216 09:53:39.519"></status>
+<status status="PASS" starttime="20210218 20:08:20.612" endtime="20210218 20:08:20.614"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -16,7 +28,7 @@
 <arg>1</arg>
 <arg>Post ID</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.520" endtime="20210216 09:53:39.520"></status>
+<status status="PASS" starttime="20210218 20:08:20.614" endtime="20210218 20:08:20.614"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -25,7 +37,7 @@
 <arg>2</arg>
 <arg>ID</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.520" endtime="20210216 09:53:39.520"></status>
+<status status="PASS" starttime="20210218 20:08:20.614" endtime="20210218 20:08:20.615"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -34,7 +46,7 @@
 <arg>3</arg>
 <arg>Name</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.521" endtime="20210216 09:53:39.521"></status>
+<status status="PASS" starttime="20210218 20:08:20.615" endtime="20210218 20:08:20.615"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -43,7 +55,7 @@
 <arg>4</arg>
 <arg>Email address</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.521" endtime="20210216 09:53:39.522"></status>
+<status status="PASS" starttime="20210218 20:08:20.615" endtime="20210218 20:08:20.615"></status>
 </kw>
 <kw name="Set Worksheet Value" library="RPA.Excel.Files">
 <doc>Set a cell value in the given worksheet.</doc>
@@ -52,7 +64,7 @@
 <arg>5</arg>
 <arg>Body</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:39.522" endtime="20210216 09:53:39.522"></status>
+<status status="PASS" starttime="20210218 20:08:20.616" endtime="20210218 20:08:20.616"></status>
 </kw>
 <kw name="Http Get" library="RPA.HTTP">
 <doc>A helper method for ``Get Request`` that will create a session, perform GET
@@ -63,14 +75,14 @@ request, and store the target file, if set by the ``target_file`` parameter.</do
 <assign>
 <var>${response}</var>
 </assign>
-<msg timestamp="20210216 09:53:39.523" level="INFO">Creating a new HTTP session</msg>
-<msg timestamp="20210216 09:53:39.523" level="INFO">Creating Session using : alias=rpasession_alias.httpsjsonplaceholder.typicode.com, url=https://jsonplaceholder.typicode.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
-<msg timestamp="20210216 09:53:46.041" level="INFO">GET Request : url=https://jsonplaceholder.typicode.com/comments 
+<msg timestamp="20210218 20:08:20.616" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210218 20:08:20.616" level="INFO">Creating Session using : alias=rpasession_alias.httpsjsonplaceholder.typicode.com, url=https://jsonplaceholder.typicode.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210218 20:08:30.791" level="INFO">GET Request : url=https://jsonplaceholder.typicode.com/comments 
  path_url=/comments 
  headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210216 09:53:46.041" level="INFO">GET Response : url=https://jsonplaceholder.typicode.com/comments 
+<msg timestamp="20210218 20:08:30.791" level="INFO">GET Response : url=https://jsonplaceholder.typicode.com/comments 
  status=200, reason=OK 
  body=[
   {
@@ -304,25 +316,25 @@ request, and store the target file, if set by the ``target_file`` parameter.</do
     "email": "Jaeden.Towne@arlene.tv",
     "body": "fugit harum quae vero\nlibero unde tempore... (set the log level to DEBUG or TRACE to see the full content) 
  </msg>
-<msg timestamp="20210216 09:53:46.041" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20210216 09:53:39.523" endtime="20210216 09:53:46.041"></status>
+<msg timestamp="20210218 20:08:30.791" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20210218 20:08:20.616" endtime="20210218 20:08:30.791"></status>
 </kw>
 <kw name="Append Rows To Worksheet" library="RPA.Excel.Files">
 <doc>Append values to the end of the worksheet.</doc>
 <arguments>
 <arg>${response.json()}</arg>
 </arguments>
-<status status="PASS" starttime="20210216 09:53:46.058" endtime="20210216 09:53:46.080"></status>
+<status status="PASS" starttime="20210218 20:08:30.806" endtime="20210218 20:08:30.828"></status>
 </kw>
 <kw name="Save Workbook" library="RPA.Excel.Files">
 <doc>Save the active workbook.</doc>
-<status status="PASS" starttime="20210216 09:53:46.080" endtime="20210216 09:53:46.122"></status>
+<status status="PASS" starttime="20210218 20:08:30.829" endtime="20210218 20:08:30.862"></status>
 </kw>
-<status status="PASS" starttime="20210216 09:53:39.516" endtime="20210216 09:53:46.122" critical="yes"></status>
+<status status="PASS" starttime="20210218 20:08:15.653" endtime="20210218 20:08:30.863" critical="yes"></status>
 </test>
 <doc>An example robot that downloads JSON data from a remote API
 and writes it into a local Excel file.</doc>
-<status status="PASS" starttime="20210216 09:53:38.832" endtime="20210216 09:53:46.130"></status>
+<status status="PASS" starttime="20210218 20:08:14.632" endtime="20210218 20:08:30.867"></status>
 </suite>
 <statistics>
 <total>
@@ -336,5 +348,6 @@ and writes it into a local Excel file.</doc>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20210218 20:08:15.565" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
 </errors>
 </robot>
