@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210220 11:10:25.910" rpa="true">
+<suite id="s1" name="TestLib" source="E:\RPAStudy\Cases\RFCases\AddLibrary\TestLib.robot">
+<test id="s1-t1" name="Calculate the performance for some example sales reps">
+<kw name="Get Sales Performance Feedback" library="CustomRFLib.PerformanceFeedback">
+<arguments>
+<arg>${sales_rep_nathan}[salesResult]</arg>
+<arg>${sales_rep_nathan}[salesTarget]</arg>
+</arguments>
+<assign>
+<var>${performance_nathon}</var>
+</assign>
+<msg timestamp="20210220 11:10:25.929" level="INFO">${performance_nathon} = Well, at least you tried </msg>
+<status status="PASS" starttime="20210220 11:10:25.929" endtime="20210220 11:10:25.929"></status>
+</kw>
+<kw name="Get Sales Performance Feedback" library="CustomRFLib.PerformanceFeedback">
+<arguments>
+<arg>${sales_rep_pamela}[salesResult]</arg>
+<arg>${sales_rep_pamela}[salesTarget]</arg>
+</arguments>
+<assign>
+<var>${performance_pamela}</var>
+</assign>
+<msg timestamp="20210220 11:10:25.930" level="INFO">${performance_pamela} = A great result!</msg>
+<status status="PASS" starttime="20210220 11:10:25.930" endtime="20210220 11:10:25.930"></status>
+</kw>
+<status status="PASS" starttime="20210220 11:10:25.928" endtime="20210220 11:10:25.930" critical="yes"></status>
+</test>
+<doc>Example robot to show the use of a custom library.</doc>
+<status status="PASS" starttime="20210220 11:10:25.911" endtime="20210220 11:10:25.936"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tasks</stat>
+<stat pass="1" fail="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TestLib">TestLib</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

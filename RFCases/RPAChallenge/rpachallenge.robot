@@ -43,7 +43,8 @@ Start The Challenge   # 定义RPA任务
 
 *** Tasks ***
 Fill The Forms   
-    ${people}=    Get The List Of People From The Excel File   # 获取
+    ${people}=    Get The List Of People From The Excel File   
+    # 获取
     FOR    ${person}    IN    @{people}
         Fill And Submit The Form    ${person}
     END
