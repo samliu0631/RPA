@@ -2,8 +2,8 @@ from RPA.Browser import Browser
 from RPA.FileSystem import FileSystem
 
 
-browser     = Browser()
-file_system = FileSystem()
+browser     = Browser()        # 需要进行类的实例化。
+file_system = FileSystem()     # 进行类的示例化。
 url         = "http://news.baidu.com"
 
 def  store_web_page_content():
