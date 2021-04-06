@@ -1,10 +1,4 @@
 from RPA.Desktop.Windows import Windows
-import logging
-import MyPackage
-
-from MyPackage.subpack1 import test1
-
-
 
 win = Windows()
 
@@ -20,8 +14,9 @@ def make_calculations(expression):
 
 
 if __name__ == "__main__":
-    #open_calculator()
-    #exp = '5*2='
-    #result = make_calculations(exp)
-    #print(f"Calculation result of '{exp}' is '{result}'")
-    #win.close_all_applications()
+    
+    open_calculator()
+    exp = '5*2='
+    result = make_calculations(exp)
+    print(f"Calculation result of '{exp}' is '{result}'")
+    win.close_all_applications()

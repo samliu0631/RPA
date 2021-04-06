@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210216 11:40:24.691" rpa="true">
-<suite id="s1" name="Rpachallenge" source="E:\RPAStudy\Cases\RobtFrameCases\RPAChallenge\rpachallenge.robot">
+<robot generator="Robot 3.2.2 (Python 3.7.0 on win32)" generated="20210310 09:48:38.627" rpa="true">
+<suite id="s1" name="Rpachallenge" source="E:\RPAStudy\Cases\RFCases\RPAChallenge\rpachallenge.robot">
 <test id="s1-t1" name="Start The Challenge">
 <kw name="Open Available Browser" library="RPA.Browser">
 <doc>Opens the first available browser in the system in preferred order, or the
@@ -8,11 +8,11 @@ given browser (``browser_selection``).</doc>
 <arguments>
 <arg>http://rpachallenge.com/</arg>
 </arguments>
-<msg timestamp="20210216 11:40:25.581" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<msg timestamp="20210216 11:40:26.907" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
-<msg timestamp="20210216 11:40:26.907" level="INFO" html="yes">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Headless&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
-<msg timestamp="20210216 11:40:26.908" level="INFO">Opening url 'http://rpachallenge.com/'</msg>
-<status status="PASS" starttime="20210216 11:40:25.576" endtime="20210216 11:42:26.261"></status>
+<msg timestamp="20210310 09:48:39.758" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20210310 09:48:41.176" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20210310 09:48:41.176" level="INFO" html="yes">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Headless&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20210310 09:48:41.176" level="INFO">Opening url 'http://rpachallenge.com/'</msg>
+<status status="PASS" starttime="20210310 09:48:39.752" endtime="20210310 09:48:51.898"></status>
 </kw>
 <kw name="Download" library="RPA.HTTP">
 <doc>An alias for the ``HTTP Get`` keyword.</doc>
@@ -20,14 +20,14 @@ given browser (``browser_selection``).</doc>
 <arg>http://rpachallenge.com/assets/downloadFiles/challenge.xlsx</arg>
 <arg>overwrite=True</arg>
 </arguments>
-<msg timestamp="20210216 11:42:26.263" level="INFO">Creating a new HTTP session</msg>
-<msg timestamp="20210216 11:42:26.263" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
-<msg timestamp="20210216 11:42:27.305" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210310 09:48:51.899" level="INFO">Creating a new HTTP session</msg>
+<msg timestamp="20210310 09:48:51.900" level="INFO">Creating Session using : alias=rpasession_alias.httprpachallenge.com, url=http://rpachallenge.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<msg timestamp="20210310 09:48:52.742" level="INFO">GET Request : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  path_url=/assets/downloadFiles/challenge.xlsx 
  headers={'User-Agent': 'python-requests/2.25.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20210216 11:42:27.438" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
+<msg timestamp="20210310 09:48:52.999" level="INFO">GET Response : url=http://rpachallenge.com/assets/downloadFiles/challenge.xlsx 
  status=200, reason=OK 
  body=PK!b�h^�[Content_Types].xml �(����N�0E�H�C�-Jܲ@5��*Q&gt;�ēƪc[�ii����B�j7���{2��h�nm���ƻR����U^7/���%��rZY�@1__�f��q��R4D�AJ�h&gt;����V�ƹ�Z�9����NV�8ʩ����ji){^��-I�"{�v^�P!XS)bR�r��K�s(�3�`c�0��������7M4�����ZƐk+�|\|z�(���P��6h_-[�@�!���Pk���2n�}�?�L��� ��%���d����dN"m,�ǞDO97*�~��ɸ8�O�c|n���E������B��!$}�����;{���[����2���PK!�U0#�L_rels/.rels �(���MO�0��H�����ݐBKwAH�!T~�I����$ݿ'T�G�~����&lt;���!��4��;#�w����qu*&amp;r�Fq���v�����GJy(v��*����K��#F��D��.W	��=��Z�MY�b���BS�����7��ϛז��?�9L�ҙ�sbgٮ|�l!��USh9i�b�r:"y_dl��D���|-N��R"4�2�G�%��Z�4�˝y�7	ë��ɂ�����PK!�&gt;����xl/_rels/workbook.xml.rels �(��RMK�0���0w�v�t/"�U�ɴ)�&amp;!3~��*�]X�K/o�y���v�5���+��zl�;o���b���G�����s�&gt;��,�8��(%���"D��҆4j�0u2js��MY�˴���S쭂��� �)f���C����y��	I&lt;y���!+��E���fMy�k�����K�5=|�t ��G)�s墙�U��tB��)���,���f�������PK!��t�Sxl/workbook.xml�TKo�0��tO�h��F��KV,�!�����t�EO�����(�����m:��ßI~�'�{%�3X'��i2�)�M!�&amp;����KJ�g�`�h�����7��]�%�]N+��,��@1745h���*�Q����X�*�d���8RLh�!d�-�,����;�yL�U�v=��o�S�n�z���b-����ų�F����'#��i���	��gJ?D��K���$���Uو��P��³ĥt:)��ǎG���3S!mI�d�,��"����2ئ������,�h��ۥ%����Y��1p&lt;�JG!�t#=X�&lt;̌�H���K@�=��M��[#,��a�V����-��HceN��ji�W�ޭD���7��I	z�#���h�w���#,�K�{��	�I؍G;���A%�'���)n���yך�D᫜�g�9�;�'����*&gt;�e�y��l}�_��&lt;\��O{��m�G���9���vJ���Lpσ\�A��f�vQ$-B�g��T�^$qz�F����O��PK!BH�ߠYxl/sharedStrings.xml|U�r�@}�L�a���@gB����r��g�V�&amp;{qw�P��2!}�L-i%�#y|��h�E���d��'�t���I�ku��&lt;!�-@;��d�!��&gt;~���a��1V�id�B�Uh��켁H�~���#�D�F��~�,5�l"��m�$g�D�V��qv4�lT6�ٍ�T��Ә���z�4�/C�ڢ�����Ѣ�͜���Re�Q(+�1��Ӣ��m�&amp;�m|,iP�6k�m�WڶmiT,���+�t���
 �:���!��\��{�c)
@@ -44,19 +44,19 @@ _���b߀�)�9���֓��s��8?r�Op�4��0/��WP�($
 ꙑRa/���u�§��[�f�Zx��3#��^A=3�
 ���DZ�;hTר�H˰Ư���H�p3��5ms����H��I۰(ތ&lt;3R8�T�ƒ��&amp;�... (set the log level to DEBUG or TRACE to see the full content) 
  </msg>
-<msg timestamp="20210216 11:42:27.509" level="INFO">&lt;IPython.core.display.Markdown object&gt;
-E:\RPAStudy\Cases\RobtFrameCases\RPAChallenge\challenge.xlsx</msg>
-<status status="PASS" starttime="20210216 11:42:26.263" endtime="20210216 11:42:27.509"></status>
+<msg timestamp="20210310 09:48:53.129" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+E:\RPAStudy\Cases\RFCases\RPAChallenge\challenge.xlsx</msg>
+<status status="PASS" starttime="20210310 09:48:51.898" endtime="20210310 09:48:53.129"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Start</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.525" level="INFO">Clicking button 'Start'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.525" endtime="20210216 11:42:27.576"></status>
+<msg timestamp="20210310 09:48:53.130" level="INFO">Clicking button 'Start'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.130" endtime="20210310 09:48:53.189"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:40:25.575" endtime="20210216 11:42:27.577" critical="yes"></status>
+<status status="PASS" starttime="20210310 09:48:39.751" endtime="20210310 09:48:53.189" critical="yes"></status>
 </test>
 <test id="s1-t2" name="Fill The Forms">
 <kw name="Get The List Of People From The Excel File">
@@ -68,8 +68,8 @@ E:\RPAStudy\Cases\RobtFrameCases\RPAChallenge\challenge.xlsx</msg>
 <arguments>
 <arg>challenge.xlsx</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.649" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x00000195F361CF28&gt;</msg>
-<status status="PASS" starttime="20210216 11:42:27.580" endtime="20210216 11:42:27.649"></status>
+<msg timestamp="20210310 09:48:53.331" level="INFO">Opened workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x00000173FD015240&gt;</msg>
+<status status="PASS" starttime="20210310 09:48:53.191" endtime="20210310 09:48:53.332"></status>
 </kw>
 <kw name="Read Worksheet As Table" library="RPA.Excel.Files">
 <doc>Read the content of a worksheet into a Table container. Allows
@@ -80,19 +80,19 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <assign>
 <var>${table}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.677" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<msg timestamp="20210216 11:42:27.677" level="INFO">&lt;IPython.core.display.Markdown object&gt;
+<msg timestamp="20210310 09:48:53.397" level="INFO">Created table: Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<msg timestamp="20210310 09:48:53.403" level="INFO">&lt;IPython.core.display.Markdown object&gt;
 &lt;IPython.core.display.Markdown object&gt;</msg>
-<msg timestamp="20210216 11:42:27.677" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<status status="PASS" starttime="20210216 11:42:27.649" endtime="20210216 11:42:27.677"></status>
+<msg timestamp="20210310 09:48:53.404" level="INFO">${table} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210310 09:48:53.332" endtime="20210310 09:48:53.404"></status>
 </kw>
 <kw name="Close Workbook" library="RPA.Excel.Files">
 <doc>Close the active workbook.</doc>
-<msg timestamp="20210216 11:42:27.677" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x00000195F361CF28&gt;</msg>
-<status status="PASS" starttime="20210216 11:42:27.677" endtime="20210216 11:42:27.677"></status>
+<msg timestamp="20210310 09:48:53.404" level="INFO">Closing workbook: &lt;RPA.Excel.Files.XlsxWorkbook object at 0x00000173FD015240&gt;</msg>
+<status status="PASS" starttime="20210310 09:48:53.404" endtime="20210310 09:48:53.404"></status>
 </kw>
-<msg timestamp="20210216 11:42:27.677" level="INFO">${people} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
-<status status="PASS" starttime="20210216 11:42:27.579" endtime="20210216 11:42:27.677"></status>
+<msg timestamp="20210310 09:48:53.405" level="INFO">${people} = Table(columns=['First Name', 'Last Name', 'Company Name', 'Role in Company', 'Address', 'Email', 'Phone Number'], rows=10)</msg>
+<status status="PASS" starttime="20210310 09:48:53.191" endtime="20210310 09:48:53.405"></status>
 </kw>
 <kw name="${person} IN [ @{people} ]" type="for">
 <kw name="${person} = {'First Name': 'John', 'Last Name': 'Smith', 'Company Name': 'IT Solutions', 'Role in Company': 'Analyst', 'Address': '98 North Road', 'Email': 'jsmith@itsolutions.co.uk', 'Phone Number': 40716543298}" type="foritem">
@@ -113,17 +113,17 @@ sorting/filtering/manipulating using the `RPA.Tables` library.</doc>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.687" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.408" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='John';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.692" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.687" endtime="20210216 11:42:27.692"></status>
+<msg timestamp="20210310 09:48:53.414" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.408" endtime="20210310 09:48:53.414"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.686" endtime="20210216 11:42:27.692"></status>
+<status status="PASS" starttime="20210310 09:48:53.407" endtime="20210310 09:48:53.414"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -134,13 +134,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.693" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Smith';
+<msg timestamp="20210310 09:48:53.415" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Smith';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.697" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.693" endtime="20210216 11:42:27.697"></status>
+<msg timestamp="20210310 09:48:53.420" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.415" endtime="20210310 09:48:53.420"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.692" endtime="20210216 11:42:27.697"></status>
+<status status="PASS" starttime="20210310 09:48:53.414" endtime="20210310 09:48:53.421"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -155,13 +155,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.698" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.422" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='IT Solutions';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.701" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.697" endtime="20210216 11:42:27.701"></status>
+<msg timestamp="20210310 09:48:53.426" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.421" endtime="20210310 09:48:53.426"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.697" endtime="20210216 11:42:27.701"></status>
+<status status="PASS" starttime="20210310 09:48:53.421" endtime="20210310 09:48:53.427"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -176,13 +176,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.702" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.427" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Analyst';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.707" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.702" endtime="20210216 11:42:27.707"></status>
+<msg timestamp="20210310 09:48:53.432" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.427" endtime="20210310 09:48:53.432"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.701" endtime="20210216 11:42:27.707"></status>
+<status status="PASS" starttime="20210310 09:48:53.427" endtime="20210310 09:48:53.432"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -197,13 +197,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.708" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.434" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='98 North Road';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.711" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.707" endtime="20210216 11:42:27.711"></status>
+<msg timestamp="20210310 09:48:53.437" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.433" endtime="20210310 09:48:53.438"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.707" endtime="20210216 11:42:27.711"></status>
+<status status="PASS" starttime="20210310 09:48:53.432" endtime="20210310 09:48:53.438"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -218,13 +218,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.712" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.439" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jsmith@itsolutions.co.uk';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.716" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.712" endtime="20210216 11:42:27.716"></status>
+<msg timestamp="20210310 09:48:53.442" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.439" endtime="20210310 09:48:53.442"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.711" endtime="20210216 11:42:27.716"></status>
+<status status="PASS" starttime="20210310 09:48:53.438" endtime="20210310 09:48:53.443"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -239,25 +239,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.717" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.444" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40716543298';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.722" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.716" endtime="20210216 11:42:27.722"></status>
+<msg timestamp="20210310 09:48:53.447" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.443" endtime="20210310 09:48:53.447"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.716" endtime="20210216 11:42:27.722"></status>
+<status status="PASS" starttime="20210310 09:48:53.443" endtime="20210310 09:48:53.447"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.722" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.722" endtime="20210216 11:42:27.763"></status>
+<msg timestamp="20210310 09:48:53.448" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.447" endtime="20210310 09:48:53.498"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.686" endtime="20210216 11:42:27.763"></status>
+<status status="PASS" starttime="20210310 09:48:53.406" endtime="20210310 09:48:53.498"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.686" endtime="20210216 11:42:27.763"></status>
+<status status="PASS" starttime="20210310 09:48:53.406" endtime="20210310 09:48:53.498"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Jane', 'Last Name': 'Dorsey', 'Company Name': 'MediCare', 'Role in Company': 'Medical Engineer', 'Address': '11 Crown Street', 'Email': 'jdorsey@mc.com', 'Phone Number': 40791345621}" type="foritem">
 <kw name="Fill And Submit The Form">
@@ -277,17 +277,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.764" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.499" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Jane';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.769" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.763" endtime="20210216 11:42:27.769"></status>
+<msg timestamp="20210310 09:48:53.504" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.498" endtime="20210310 09:48:53.504"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.763" endtime="20210216 11:42:27.769"></status>
+<status status="PASS" starttime="20210310 09:48:53.498" endtime="20210310 09:48:53.504"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -298,13 +298,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.770" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Dorsey';
+<msg timestamp="20210310 09:48:53.505" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Dorsey';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.771" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.769" endtime="20210216 11:42:27.771"></status>
+<msg timestamp="20210310 09:48:53.510" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.504" endtime="20210310 09:48:53.510"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.769" endtime="20210216 11:42:27.771"></status>
+<status status="PASS" starttime="20210310 09:48:53.504" endtime="20210310 09:48:53.510"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -319,13 +319,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.771" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.511" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='MediCare';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.771" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.771"></status>
+<msg timestamp="20210310 09:48:53.516" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.511" endtime="20210310 09:48:53.516"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.771"></status>
+<status status="PASS" starttime="20210310 09:48:53.511" endtime="20210310 09:48:53.517"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -340,13 +340,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.771" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.518" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Medical Engineer';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.771" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.771"></status>
+<msg timestamp="20210310 09:48:53.522" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.517" endtime="20210310 09:48:53.522"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.771"></status>
+<status status="PASS" starttime="20210310 09:48:53.517" endtime="20210310 09:48:53.522"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -361,13 +361,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.771" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.523" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='11 Crown Street';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.786" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.786"></status>
+<msg timestamp="20210310 09:48:53.526" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.522" endtime="20210310 09:48:53.526"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.771" endtime="20210216 11:42:27.786"></status>
+<status status="PASS" starttime="20210310 09:48:53.522" endtime="20210310 09:48:53.526"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -382,13 +382,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.787" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.527" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jdorsey@mc.com';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.791" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.786" endtime="20210216 11:42:27.791"></status>
+<msg timestamp="20210310 09:48:53.531" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.527" endtime="20210310 09:48:53.531"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.786" endtime="20210216 11:42:27.791"></status>
+<status status="PASS" starttime="20210310 09:48:53.526" endtime="20210310 09:48:53.532"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -403,25 +403,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.792" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.533" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40791345621';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.795" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.792" endtime="20210216 11:42:27.795"></status>
+<msg timestamp="20210310 09:48:53.538" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.532" endtime="20210310 09:48:53.538"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.791" endtime="20210216 11:42:27.795"></status>
+<status status="PASS" starttime="20210310 09:48:53.532" endtime="20210310 09:48:53.538"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.795" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.795" endtime="20210216 11:42:27.828"></status>
+<msg timestamp="20210310 09:48:53.538" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.538" endtime="20210310 09:48:53.571"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.763" endtime="20210216 11:42:27.828"></status>
+<status status="PASS" starttime="20210310 09:48:53.498" endtime="20210310 09:48:53.571"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.763" endtime="20210216 11:42:27.828"></status>
+<status status="PASS" starttime="20210310 09:48:53.498" endtime="20210310 09:48:53.571"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Albert', 'Last Name': 'Kipling', 'Company Name': 'Waterfront', 'Role in Company': 'Accountant', 'Address': '22 Guild Street', 'Email': 'kipling@waterfront.com', 'Phone Number': 4073541..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -441,17 +441,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.829" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.573" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Albert';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.833" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.829" endtime="20210216 11:42:27.833"></status>
+<msg timestamp="20210310 09:48:53.578" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.573" endtime="20210310 09:48:53.578"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.828" endtime="20210216 11:42:27.833"></status>
+<status status="PASS" starttime="20210310 09:48:53.572" endtime="20210310 09:48:53.578"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -462,13 +462,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.834" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Kipling';
+<msg timestamp="20210310 09:48:53.579" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Kipling';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.839" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.834" endtime="20210216 11:42:27.839"></status>
+<msg timestamp="20210310 09:48:53.583" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.578" endtime="20210310 09:48:53.584"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.833" endtime="20210216 11:42:27.839"></status>
+<status status="PASS" starttime="20210310 09:48:53.578" endtime="20210310 09:48:53.584"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -483,13 +483,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.839" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.585" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Waterfront';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.844" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.839" endtime="20210216 11:42:27.844"></status>
+<msg timestamp="20210310 09:48:53.589" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.584" endtime="20210310 09:48:53.589"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.839" endtime="20210216 11:42:27.844"></status>
+<status status="PASS" starttime="20210310 09:48:53.584" endtime="20210310 09:48:53.589"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -504,13 +504,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.845" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.590" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Accountant';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.848" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.844" endtime="20210216 11:42:27.848"></status>
+<msg timestamp="20210310 09:48:53.594" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.590" endtime="20210310 09:48:53.594"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.844" endtime="20210216 11:42:27.848"></status>
+<status status="PASS" starttime="20210310 09:48:53.589" endtime="20210310 09:48:53.594"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -525,13 +525,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.848" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.595" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='22 Guild Street';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.851" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.848" endtime="20210216 11:42:27.851"></status>
+<msg timestamp="20210310 09:48:53.599" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.595" endtime="20210310 09:48:53.599"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.848" endtime="20210216 11:42:27.851"></status>
+<status status="PASS" starttime="20210310 09:48:53.594" endtime="20210310 09:48:53.599"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -546,13 +546,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.852" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.600" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='kipling@waterfront.com';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.856" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.851" endtime="20210216 11:42:27.856"></status>
+<msg timestamp="20210310 09:48:53.605" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.600" endtime="20210310 09:48:53.605"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.851" endtime="20210216 11:42:27.856"></status>
+<status status="PASS" starttime="20210310 09:48:53.599" endtime="20210310 09:48:53.605"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -567,25 +567,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.857" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.606" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40735416854';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.860" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.856" endtime="20210216 11:42:27.860"></status>
+<msg timestamp="20210310 09:48:53.610" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.605" endtime="20210310 09:48:53.610"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.856" endtime="20210216 11:42:27.860"></status>
+<status status="PASS" starttime="20210310 09:48:53.605" endtime="20210310 09:48:53.610"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.860" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.860" endtime="20210216 11:42:27.889"></status>
+<msg timestamp="20210310 09:48:53.610" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.610" endtime="20210310 09:48:53.648"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.828" endtime="20210216 11:42:27.889"></status>
+<status status="PASS" starttime="20210310 09:48:53.572" endtime="20210310 09:48:53.648"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.828" endtime="20210216 11:42:27.889"></status>
+<status status="PASS" starttime="20210310 09:48:53.572" endtime="20210310 09:48:53.648"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Michael', 'Last Name': 'Robertson', 'Company Name': 'MediCare', 'Role in Company': 'IT Specialist', 'Address': '17 Farburn Terrace', 'Email': 'mrobertson@mc.com', 'Phone Number': 40733..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -605,17 +605,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.890" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.649" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Michael';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.894" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.890" endtime="20210216 11:42:27.894"></status>
+<msg timestamp="20210310 09:48:53.655" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.649" endtime="20210310 09:48:53.655"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.890" endtime="20210216 11:42:27.894"></status>
+<status status="PASS" starttime="20210310 09:48:53.648" endtime="20210310 09:48:53.655"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -626,13 +626,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.895" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Robertson';
+<msg timestamp="20210310 09:48:53.656" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Robertson';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.898" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.894" endtime="20210216 11:42:27.898"></status>
+<msg timestamp="20210310 09:48:53.660" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.655" endtime="20210310 09:48:53.660"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.894" endtime="20210216 11:42:27.898"></status>
+<status status="PASS" starttime="20210310 09:48:53.655" endtime="20210310 09:48:53.660"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -647,13 +647,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.898" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.661" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='MediCare';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.901" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.898" endtime="20210216 11:42:27.901"></status>
+<msg timestamp="20210310 09:48:53.664" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.661" endtime="20210310 09:48:53.664"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.898" endtime="20210216 11:42:27.901"></status>
+<status status="PASS" starttime="20210310 09:48:53.660" endtime="20210310 09:48:53.665"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -668,13 +668,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.902" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.665" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='IT Specialist';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.906" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.901" endtime="20210216 11:42:27.906"></status>
+<msg timestamp="20210310 09:48:53.671" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.665" endtime="20210310 09:48:53.671"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.901" endtime="20210216 11:42:27.906"></status>
+<status status="PASS" starttime="20210310 09:48:53.665" endtime="20210310 09:48:53.671"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -689,13 +689,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.907" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.672" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='17 Farburn Terrace';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.910" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.907" endtime="20210216 11:42:27.910"></status>
+<msg timestamp="20210310 09:48:53.676" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.672" endtime="20210310 09:48:53.676"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.906" endtime="20210216 11:42:27.910"></status>
+<status status="PASS" starttime="20210310 09:48:53.672" endtime="20210310 09:48:53.677"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -710,13 +710,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.911" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.678" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='mrobertson@mc.com';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.915" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.910" endtime="20210216 11:42:27.915"></status>
+<msg timestamp="20210310 09:48:53.683" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.677" endtime="20210310 09:48:53.683"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.910" endtime="20210216 11:42:27.915"></status>
+<status status="PASS" starttime="20210310 09:48:53.677" endtime="20210310 09:48:53.683"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -731,25 +731,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.916" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.684" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40733652145';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.918" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.915" endtime="20210216 11:42:27.918"></status>
+<msg timestamp="20210310 09:48:53.688" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.684" endtime="20210310 09:48:53.688"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.915" endtime="20210216 11:42:27.918"></status>
+<status status="PASS" starttime="20210310 09:48:53.683" endtime="20210310 09:48:53.689"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.919" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.919" endtime="20210216 11:42:27.947"></status>
+<msg timestamp="20210310 09:48:53.689" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.689" endtime="20210310 09:48:53.721"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.890" endtime="20210216 11:42:27.948"></status>
+<status status="PASS" starttime="20210310 09:48:53.648" endtime="20210310 09:48:53.721"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.890" endtime="20210216 11:42:27.948"></status>
+<status status="PASS" starttime="20210310 09:48:53.648" endtime="20210310 09:48:53.721"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Doug', 'Last Name': 'Derrick', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Analyst', 'Address': '99 Shire Oak Road', 'Email': 'dderrick@timepath.co.uk', 'Phone Number': 407998..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -769,17 +769,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.949" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.722" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Doug';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.952" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.948" endtime="20210216 11:42:27.952"></status>
+<msg timestamp="20210310 09:48:53.727" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.722" endtime="20210310 09:48:53.727"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.948" endtime="20210216 11:42:27.952"></status>
+<status status="PASS" starttime="20210310 09:48:53.721" endtime="20210310 09:48:53.727"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -790,13 +790,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.953" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Derrick';
+<msg timestamp="20210310 09:48:53.728" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Derrick';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.957" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.952" endtime="20210216 11:42:27.957"></status>
+<msg timestamp="20210310 09:48:53.732" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.728" endtime="20210310 09:48:53.733"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.952" endtime="20210216 11:42:27.957"></status>
+<status status="PASS" starttime="20210310 09:48:53.727" endtime="20210310 09:48:53.733"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -811,13 +811,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.958" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.734" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Timepath Inc.';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.962" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.958" endtime="20210216 11:42:27.962"></status>
+<msg timestamp="20210310 09:48:53.738" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.733" endtime="20210310 09:48:53.739"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.957" endtime="20210216 11:42:27.962"></status>
+<status status="PASS" starttime="20210310 09:48:53.733" endtime="20210310 09:48:53.739"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -832,13 +832,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.962" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.739" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Analyst';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.965" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.962" endtime="20210216 11:42:27.965"></status>
+<msg timestamp="20210310 09:48:53.743" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.739" endtime="20210310 09:48:53.743"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.962" endtime="20210216 11:42:27.965"></status>
+<status status="PASS" starttime="20210310 09:48:53.739" endtime="20210310 09:48:53.743"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -853,13 +853,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.966" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.744" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='99 Shire Oak Road';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.969" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.966" endtime="20210216 11:42:27.969"></status>
+<msg timestamp="20210310 09:48:53.748" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.744" endtime="20210310 09:48:53.748"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.965" endtime="20210216 11:42:27.969"></status>
+<status status="PASS" starttime="20210310 09:48:53.743" endtime="20210310 09:48:53.748"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -874,13 +874,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.970" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.749" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='dderrick@timepath.co.uk';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.974" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.969" endtime="20210216 11:42:27.974"></status>
+<msg timestamp="20210310 09:48:53.754" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.749" endtime="20210310 09:48:53.754"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.969" endtime="20210216 11:42:27.974"></status>
+<status status="PASS" starttime="20210310 09:48:53.748" endtime="20210310 09:48:53.754"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -895,25 +895,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:27.975" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.755" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40799885412';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:27.978" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:27.974" endtime="20210216 11:42:27.978"></status>
+<msg timestamp="20210310 09:48:53.759" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.755" endtime="20210310 09:48:53.759"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.974" endtime="20210216 11:42:27.978"></status>
+<status status="PASS" starttime="20210310 09:48:53.755" endtime="20210310 09:48:53.759"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:27.978" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:27.978" endtime="20210216 11:42:28.006"></status>
+<msg timestamp="20210310 09:48:53.760" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.759" endtime="20210310 09:48:53.797"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.948" endtime="20210216 11:42:28.006"></status>
+<status status="PASS" starttime="20210310 09:48:53.721" endtime="20210310 09:48:53.797"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.948" endtime="20210216 11:42:28.006"></status>
+<status status="PASS" starttime="20210310 09:48:53.721" endtime="20210310 09:48:53.797"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Jessie', 'Last Name': 'Marlowe', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '27 Cheshire Street', 'Email': 'jmarlowe@aperture.us', 'Phone Number': 4073..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -933,17 +933,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.007" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.798" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Jessie';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.010" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.006" endtime="20210216 11:42:28.010"></status>
+<msg timestamp="20210310 09:48:53.803" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.798" endtime="20210310 09:48:53.803"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.006" endtime="20210216 11:42:28.010"></status>
+<status status="PASS" starttime="20210310 09:48:53.798" endtime="20210310 09:48:53.803"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -954,13 +954,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.011" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Marlowe';
+<msg timestamp="20210310 09:48:53.805" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Marlowe';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.015" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.011" endtime="20210216 11:42:28.015"></status>
+<msg timestamp="20210310 09:48:53.810" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.804" endtime="20210310 09:48:53.810"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.011" endtime="20210216 11:42:28.015"></status>
+<status status="PASS" starttime="20210310 09:48:53.804" endtime="20210310 09:48:53.810"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -975,13 +975,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.016" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.811" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Aperture Inc.';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.018" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.015" endtime="20210216 11:42:28.018"></status>
+<msg timestamp="20210310 09:48:53.817" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.811" endtime="20210310 09:48:53.817"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.015" endtime="20210216 11:42:28.018"></status>
+<status status="PASS" starttime="20210310 09:48:53.811" endtime="20210310 09:48:53.817"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -996,13 +996,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.019" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.818" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Scientist';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.023" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.019" endtime="20210216 11:42:28.023"></status>
+<msg timestamp="20210310 09:48:53.822" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.818" endtime="20210310 09:48:53.822"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.018" endtime="20210216 11:42:28.023"></status>
+<status status="PASS" starttime="20210310 09:48:53.817" endtime="20210310 09:48:53.822"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1017,13 +1017,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.024" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.823" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='27 Cheshire Street';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.027" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.023" endtime="20210216 11:42:28.027"></status>
+<msg timestamp="20210310 09:48:53.828" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.823" endtime="20210310 09:48:53.828"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.023" endtime="20210216 11:42:28.027"></status>
+<status status="PASS" starttime="20210310 09:48:53.822" endtime="20210310 09:48:53.828"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1038,13 +1038,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.028" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.829" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='jmarlowe@aperture.us';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.031" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.027" endtime="20210216 11:42:28.031"></status>
+<msg timestamp="20210310 09:48:53.832" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.828" endtime="20210310 09:48:53.832"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.027" endtime="20210216 11:42:28.031"></status>
+<status status="PASS" starttime="20210310 09:48:53.828" endtime="20210310 09:48:53.832"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1059,25 +1059,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.031" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.833" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40733154268';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.034" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.031" endtime="20210216 11:42:28.034"></status>
+<msg timestamp="20210310 09:48:53.837" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.833" endtime="20210310 09:48:53.837"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.031" endtime="20210216 11:42:28.034"></status>
+<status status="PASS" starttime="20210310 09:48:53.832" endtime="20210310 09:48:53.837"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:28.034" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:28.034" endtime="20210216 11:42:28.061"></status>
+<msg timestamp="20210310 09:48:53.838" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.837" endtime="20210310 09:48:53.872"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.006" endtime="20210216 11:42:28.062"></status>
+<status status="PASS" starttime="20210310 09:48:53.797" endtime="20210310 09:48:53.872"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.006" endtime="20210216 11:42:28.062"></status>
+<status status="PASS" starttime="20210310 09:48:53.797" endtime="20210310 09:48:53.872"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Stan', 'Last Name': 'Hamm', 'Company Name': 'Sugarwell', 'Role in Company': 'Advisor', 'Address': '10 Dam Road', 'Email': 'shamm@sugarwell.org', 'Phone Number': 40712462257}" type="foritem">
 <kw name="Fill And Submit The Form">
@@ -1097,17 +1097,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.063" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.874" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Stan';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.066" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.062" endtime="20210216 11:42:28.066"></status>
+<msg timestamp="20210310 09:48:53.880" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.873" endtime="20210310 09:48:53.880"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.062" endtime="20210216 11:42:28.067"></status>
+<status status="PASS" starttime="20210310 09:48:53.873" endtime="20210310 09:48:53.880"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -1118,13 +1118,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.067" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Hamm';
+<msg timestamp="20210310 09:48:53.880" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Hamm';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.073" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.067" endtime="20210216 11:42:28.073"></status>
+<msg timestamp="20210310 09:48:53.886" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.880" endtime="20210310 09:48:53.886"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.067" endtime="20210216 11:42:28.073"></status>
+<status status="PASS" starttime="20210310 09:48:53.880" endtime="20210310 09:48:53.886"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1139,13 +1139,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.074" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.887" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Sugarwell';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.077" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.074" endtime="20210216 11:42:28.077"></status>
+<msg timestamp="20210310 09:48:53.892" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.887" endtime="20210310 09:48:53.892"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.073" endtime="20210216 11:42:28.078"></status>
+<status status="PASS" starttime="20210310 09:48:53.887" endtime="20210310 09:48:53.892"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1160,13 +1160,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.079" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.893" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Advisor';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.083" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.078" endtime="20210216 11:42:28.083"></status>
+<msg timestamp="20210310 09:48:53.897" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.893" endtime="20210310 09:48:53.897"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.078" endtime="20210216 11:42:28.083"></status>
+<status status="PASS" starttime="20210310 09:48:53.892" endtime="20210310 09:48:53.897"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1181,13 +1181,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.084" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.899" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='10 Dam Road';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.089" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.084" endtime="20210216 11:42:28.090"></status>
+<msg timestamp="20210310 09:48:53.903" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.898" endtime="20210310 09:48:53.903"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.083" endtime="20210216 11:42:28.090"></status>
+<status status="PASS" starttime="20210310 09:48:53.898" endtime="20210310 09:48:53.903"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1202,13 +1202,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.090" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.904" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='shamm@sugarwell.org';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.094" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.090" endtime="20210216 11:42:28.094"></status>
+<msg timestamp="20210310 09:48:53.908" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.904" endtime="20210310 09:48:53.908"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.090" endtime="20210216 11:42:28.094"></status>
+<status status="PASS" starttime="20210310 09:48:53.903" endtime="20210310 09:48:53.908"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1223,25 +1223,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.095" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.909" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40712462257';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.098" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.094" endtime="20210216 11:42:28.099"></status>
+<msg timestamp="20210310 09:48:53.913" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.908" endtime="20210310 09:48:53.914"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.094" endtime="20210216 11:42:28.099"></status>
+<status status="PASS" starttime="20210310 09:48:53.908" endtime="20210310 09:48:53.914"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:28.099" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:28.099" endtime="20210216 11:42:28.132"></status>
+<msg timestamp="20210310 09:48:53.914" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.914" endtime="20210310 09:48:53.952"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.062" endtime="20210216 11:42:28.132"></status>
+<status status="PASS" starttime="20210310 09:48:53.872" endtime="20210310 09:48:53.952"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.062" endtime="20210216 11:42:28.132"></status>
+<status status="PASS" starttime="20210310 09:48:53.872" endtime="20210310 09:48:53.952"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Michelle', 'Last Name': 'Norton', 'Company Name': 'Aperture Inc.', 'Role in Company': 'Scientist', 'Address': '13 White Rabbit Street', 'Email': 'mnorton@aperture.us', 'Phone Number': ..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -1261,17 +1261,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.133" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.953" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Michelle';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.139" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.133" endtime="20210216 11:42:28.139"></status>
+<msg timestamp="20210310 09:48:53.959" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.953" endtime="20210310 09:48:53.959"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.133" endtime="20210216 11:42:28.140"></status>
+<status status="PASS" starttime="20210310 09:48:53.953" endtime="20210310 09:48:53.959"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -1282,13 +1282,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.140" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Norton';
+<msg timestamp="20210310 09:48:53.960" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Norton';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.143" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.140" endtime="20210216 11:42:28.143"></status>
+<msg timestamp="20210310 09:48:53.966" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.960" endtime="20210310 09:48:53.966"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.140" endtime="20210216 11:42:28.143"></status>
+<status status="PASS" starttime="20210310 09:48:53.959" endtime="20210310 09:48:53.966"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1303,13 +1303,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.144" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.967" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Aperture Inc.';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.147" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.144" endtime="20210216 11:42:28.147"></status>
+<msg timestamp="20210310 09:48:53.971" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.966" endtime="20210310 09:48:53.971"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.143" endtime="20210216 11:42:28.147"></status>
+<status status="PASS" starttime="20210310 09:48:53.966" endtime="20210310 09:48:53.971"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1324,13 +1324,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.147" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.972" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Scientist';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.150" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.147" endtime="20210216 11:42:28.150"></status>
+<msg timestamp="20210310 09:48:53.975" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.972" endtime="20210310 09:48:53.975"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.147" endtime="20210216 11:42:28.150"></status>
+<status status="PASS" starttime="20210310 09:48:53.971" endtime="20210310 09:48:53.976"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1345,13 +1345,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.151" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.976" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='13 White Rabbit Street';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.154" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.150" endtime="20210216 11:42:28.154"></status>
+<msg timestamp="20210310 09:48:53.979" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.976" endtime="20210310 09:48:53.979"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.150" endtime="20210216 11:42:28.155"></status>
+<status status="PASS" starttime="20210310 09:48:53.976" endtime="20210310 09:48:53.979"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1366,13 +1366,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.155" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.980" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='mnorton@aperture.us';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.159" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.155" endtime="20210216 11:42:28.159"></status>
+<msg timestamp="20210310 09:48:53.985" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.980" endtime="20210310 09:48:53.985"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.155" endtime="20210216 11:42:28.159"></status>
+<status status="PASS" starttime="20210310 09:48:53.979" endtime="20210310 09:48:53.985"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1387,25 +1387,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.160" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:53.986" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40731254562';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.163" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.159" endtime="20210216 11:42:28.163"></status>
+<msg timestamp="20210310 09:48:53.990" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:53.985" endtime="20210310 09:48:53.990"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.159" endtime="20210216 11:42:28.163"></status>
+<status status="PASS" starttime="20210310 09:48:53.985" endtime="20210310 09:48:53.990"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:28.163" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:28.163" endtime="20210216 11:42:28.192"></status>
+<msg timestamp="20210310 09:48:53.990" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:53.990" endtime="20210310 09:48:54.026"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.132" endtime="20210216 11:42:28.192"></status>
+<status status="PASS" starttime="20210310 09:48:53.952" endtime="20210310 09:48:54.027"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.132" endtime="20210216 11:42:28.192"></status>
+<status status="PASS" starttime="20210310 09:48:53.952" endtime="20210310 09:48:54.027"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Stacy', 'Last Name': 'Shelby', 'Company Name': 'TechDev', 'Role in Company': 'HR Manager', 'Address': '19 Pineapple Boulevard', 'Email': 'sshelby@techdev.com', 'Phone Number': 40741785..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -1425,17 +1425,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.193" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.029" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Stacy';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.196" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.193" endtime="20210216 11:42:28.197"></status>
+<msg timestamp="20210310 09:48:54.036" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.028" endtime="20210310 09:48:54.036"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.192" endtime="20210216 11:42:28.197"></status>
+<status status="PASS" starttime="20210310 09:48:54.027" endtime="20210310 09:48:54.036"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -1446,13 +1446,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.197" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Shelby';
+<msg timestamp="20210310 09:48:54.037" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Shelby';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.201" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.197" endtime="20210216 11:42:28.201"></status>
+<msg timestamp="20210310 09:48:54.043" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.037" endtime="20210310 09:48:54.043"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.197" endtime="20210216 11:42:28.201"></status>
+<status status="PASS" starttime="20210310 09:48:54.036" endtime="20210310 09:48:54.044"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1467,13 +1467,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.202" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.045" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='TechDev';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.205" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.201" endtime="20210216 11:42:28.205"></status>
+<msg timestamp="20210310 09:48:54.051" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.044" endtime="20210310 09:48:54.051"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.201" endtime="20210216 11:42:28.205"></status>
+<status status="PASS" starttime="20210310 09:48:54.044" endtime="20210310 09:48:54.052"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1488,13 +1488,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.206" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.054" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='HR Manager';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.210" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.206" endtime="20210216 11:42:28.210"></status>
+<msg timestamp="20210310 09:48:54.060" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.053" endtime="20210310 09:48:54.060"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.206" endtime="20210216 11:42:28.210"></status>
+<status status="PASS" starttime="20210310 09:48:54.052" endtime="20210310 09:48:54.060"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1509,13 +1509,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.210" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.063" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='19 Pineapple Boulevard';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.214" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.210" endtime="20210216 11:42:28.214"></status>
+<msg timestamp="20210310 09:48:54.069" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.062" endtime="20210310 09:48:54.069"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.210" endtime="20210216 11:42:28.214"></status>
+<status status="PASS" starttime="20210310 09:48:54.060" endtime="20210310 09:48:54.069"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1530,13 +1530,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.215" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.072" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='sshelby@techdev.com';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.218" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.214" endtime="20210216 11:42:28.218"></status>
+<msg timestamp="20210310 09:48:54.078" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.071" endtime="20210310 09:48:54.078"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.214" endtime="20210216 11:42:28.218"></status>
+<status status="PASS" starttime="20210310 09:48:54.070" endtime="20210310 09:48:54.079"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1551,25 +1551,25 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.219" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.080" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40741785214';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.223" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.218" endtime="20210216 11:42:28.223"></status>
+<msg timestamp="20210310 09:48:54.087" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.080" endtime="20210310 09:48:54.087"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.218" endtime="20210216 11:42:28.223"></status>
+<status status="PASS" starttime="20210310 09:48:54.079" endtime="20210310 09:48:54.087"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:28.223" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:28.223" endtime="20210216 11:42:28.251"></status>
+<msg timestamp="20210310 09:48:54.087" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:54.087" endtime="20210310 09:48:54.127"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.192" endtime="20210216 11:42:28.251"></status>
+<status status="PASS" starttime="20210310 09:48:54.027" endtime="20210310 09:48:54.127"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.192" endtime="20210216 11:42:28.251"></status>
+<status status="PASS" starttime="20210310 09:48:54.027" endtime="20210310 09:48:54.127"></status>
 </kw>
 <kw name="${person} = {'First Name': 'Lara', 'Last Name': 'Palmer', 'Company Name': 'Timepath Inc.', 'Role in Company': 'Programmer', 'Address': '87 Orange Street', 'Email': 'lpalmer@timepath.co.uk', 'Phone Number': 407316..." type="foritem">
 <kw name="Fill And Submit The Form">
@@ -1589,17 +1589,17 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.252" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.128" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelFirstName"]',document.body,null,9,null).singleNodeValue.value='Lara';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.258" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.252" endtime="20210216 11:42:28.258"></status>
+<msg timestamp="20210310 09:48:54.133" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.128" endtime="20210310 09:48:54.134"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.252" endtime="20210216 11:42:28.259"></status>
+<status status="PASS" starttime="20210310 09:48:54.127" endtime="20210310 09:48:54.134"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
-<arg>//input[@ng-reflect-name="labelLastName"]</arg>
+<arg>//*[@ng-reflect-name="labelLastName"]</arg>
 <arg>${person}[Last Name]</arg>
 </arguments>
 <kw name="Execute Javascript" library="RPA.Browser">
@@ -1610,13 +1610,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.259" level="INFO">Executing JavaScript:
-document.evaluate('//input[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Palmer';
+<msg timestamp="20210310 09:48:54.135" level="INFO">Executing JavaScript:
+document.evaluate('//*[@ng-reflect-name="labelLastName"]',document.body,null,9,null).singleNodeValue.value='Palmer';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.263" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.259" endtime="20210216 11:42:28.263"></status>
+<msg timestamp="20210310 09:48:54.140" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.134" endtime="20210310 09:48:54.140"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.259" endtime="20210216 11:42:28.263"></status>
+<status status="PASS" starttime="20210310 09:48:54.134" endtime="20210310 09:48:54.140"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1631,13 +1631,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.264" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.142" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelCompanyName"]',document.body,null,9,null).singleNodeValue.value='Timepath Inc.';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.266" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.263" endtime="20210216 11:42:28.266"></status>
+<msg timestamp="20210310 09:48:54.147" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.141" endtime="20210310 09:48:54.147"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.263" endtime="20210216 11:42:28.266"></status>
+<status status="PASS" starttime="20210310 09:48:54.140" endtime="20210310 09:48:54.147"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1652,13 +1652,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.267" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.148" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelRole"]',document.body,null,9,null).singleNodeValue.value='Programmer';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.270" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.267" endtime="20210216 11:42:28.270"></status>
+<msg timestamp="20210310 09:48:54.155" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.148" endtime="20210310 09:48:54.155"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.266" endtime="20210216 11:42:28.270"></status>
+<status status="PASS" starttime="20210310 09:48:54.147" endtime="20210310 09:48:54.155"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1673,13 +1673,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.271" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.156" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelAddress"]',document.body,null,9,null).singleNodeValue.value='87 Orange Street';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.274" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.270" endtime="20210216 11:42:28.274"></status>
+<msg timestamp="20210310 09:48:54.161" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.156" endtime="20210310 09:48:54.161"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.270" endtime="20210216 11:42:28.274"></status>
+<status status="PASS" starttime="20210310 09:48:54.156" endtime="20210310 09:48:54.161"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1694,13 +1694,13 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.275" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.162" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelEmail"]',document.body,null,9,null).singleNodeValue.value='lpalmer@timepath.co.uk';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.278" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.275" endtime="20210216 11:42:28.278"></status>
+<msg timestamp="20210310 09:48:54.165" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.161" endtime="20210310 09:48:54.165"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.275" endtime="20210216 11:42:28.278"></status>
+<status status="PASS" starttime="20210310 09:48:54.161" endtime="20210310 09:48:54.166"></status>
 </kw>
 <kw name="Set Value By Xpath">
 <arguments>
@@ -1715,37 +1715,37 @@ Without any arguments.</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20210216 11:42:28.279" level="INFO">Executing JavaScript:
+<msg timestamp="20210310 09:48:54.166" level="INFO">Executing JavaScript:
 document.evaluate('//input[@ng-reflect-name="labelPhone"]',document.body,null,9,null).singleNodeValue.value='40731653845';
 Without any arguments.</msg>
-<msg timestamp="20210216 11:42:28.281" level="INFO">${result} = None</msg>
-<status status="PASS" starttime="20210216 11:42:28.278" endtime="20210216 11:42:28.281"></status>
+<msg timestamp="20210310 09:48:54.171" level="INFO">${result} = None</msg>
+<status status="PASS" starttime="20210310 09:48:54.166" endtime="20210310 09:48:54.171"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.278" endtime="20210216 11:42:28.281"></status>
+<status status="PASS" starttime="20210310 09:48:54.166" endtime="20210310 09:48:54.171"></status>
 </kw>
 <kw name="Click Button" library="RPA.Browser">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>Submit</arg>
 </arguments>
-<msg timestamp="20210216 11:42:28.281" level="INFO">Clicking button 'Submit'.</msg>
-<status status="PASS" starttime="20210216 11:42:28.281" endtime="20210216 11:42:28.308"></status>
+<msg timestamp="20210310 09:48:54.172" level="INFO">Clicking button 'Submit'.</msg>
+<status status="PASS" starttime="20210310 09:48:54.171" endtime="20210310 09:48:54.202"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.251" endtime="20210216 11:42:28.308"></status>
+<status status="PASS" starttime="20210310 09:48:54.127" endtime="20210310 09:48:54.202"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:28.251" endtime="20210216 11:42:28.308"></status>
+<status status="PASS" starttime="20210310 09:48:54.127" endtime="20210310 09:48:54.202"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.686" endtime="20210216 11:42:28.308"></status>
+<status status="PASS" starttime="20210310 09:48:53.405" endtime="20210310 09:48:54.202"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>10s</arg>
 </arguments>
-<msg timestamp="20210216 11:42:38.316" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" starttime="20210216 11:42:28.308" endtime="20210216 11:42:38.316"></status>
+<msg timestamp="20210310 09:49:04.208" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20210310 09:48:54.203" endtime="20210310 09:49:04.208"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:27.579" endtime="20210216 11:42:38.318" critical="yes"></status>
+<status status="PASS" starttime="20210310 09:48:53.191" endtime="20210310 09:49:04.209" critical="yes"></status>
 </test>
 <test id="s1-t3" name="Collect The Results">
 <kw name="Capture Element Screenshot" library="RPA.Browser">
@@ -1753,32 +1753,45 @@ Without any arguments.</msg>
 <arguments>
 <arg>css:div.congratulations</arg>
 </arguments>
-<msg timestamp="20210216 11:42:38.659" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-element-screenshot-4.png"&gt;&lt;img src="selenium-element-screenshot-4.png" width="400px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210216 11:42:38.325" endtime="20210216 11:42:38.659"></status>
+<kw name="Capture Page Screenshot" library="RPA.Browser">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210310 09:49:28.562" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210310 09:49:16.370" endtime="20210310 09:49:28.562"></status>
 </kw>
-<kw name="Close All Browsers" library="RPA.Browser">
-<doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20210216 11:42:38.660" endtime="20210216 11:42:40.803"></status>
+<msg timestamp="20210310 09:49:28.562" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<msg timestamp="20210310 09:49:28.565" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+</msg>
+<status status="FAIL" starttime="20210310 09:49:04.211" endtime="20210310 09:49:28.565"></status>
 </kw>
-<status status="PASS" starttime="20210216 11:42:38.324" endtime="20210216 11:42:40.805" critical="yes"></status>
+<status status="FAIL" starttime="20210310 09:49:04.211" endtime="20210310 09:49:28.565" critical="yes">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+</status>
 </test>
 <doc>Robot to solve the first challenge at rpachallenge.com, which consists of
 filling a form that randomly rearranges itself for ten times, with data
 taken from a provided Microsoft Excel file.</doc>
-<status status="PASS" starttime="20210216 11:40:24.707" endtime="20210216 11:42:40.813"></status>
+<status status="FAIL" starttime="20210310 09:48:38.629" endtime="20210310 09:49:28.568"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0">Critical Tasks</stat>
-<stat pass="3" fail="0">All Tasks</stat>
+<stat pass="2" fail="1">Critical Tasks</stat>
+<stat pass="2" fail="1">All Tasks</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="0" id="s1" name="Rpachallenge">Rpachallenge</stat>
+<stat pass="2" fail="1" id="s1" name="Rpachallenge">Rpachallenge</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20210216 11:40:25.110" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
+<msg timestamp="20210310 09:48:39.158" level="WARN">This is a deprecated import that will be removed in favor of RPA.Browser.Selenium</msg>
+<msg timestamp="20210310 09:49:28.562" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: chrome not reachable
+  (Session info: chrome=88.0.4324.150)
+</msg>
 </errors>
 </robot>
